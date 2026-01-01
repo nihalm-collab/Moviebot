@@ -66,6 +66,17 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
+question_answering_chain = create_stuff_documents_chain(llm, prompt)
+
+rag_chain = create_retrieval_chain(retriever, question_answering_chain)
+
+chat_prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are a friendly assistant. Answer the user politely."),
+    ("user", "{input}")
+])
+
+simple_chat_chain = chat_prompt | llm | StrOutputParser()
+
 if query:
     with st.spinner("Analyzing intent..."):
         intent = intent_chain.invoke({"input": query}).strip()

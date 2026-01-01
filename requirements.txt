@@ -9,4 +9,4 @@ langchain_chroma
 langchainhub
 pypdf
 rapidocr-onnxruntime
-angchain-classic==1.0.0
+langchain-classic==1.0.0

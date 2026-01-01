@@ -8,6 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 from langchain_classic.chains import create_retrieval_chain
+from langchain_core.output_parsers import StrOutputParser
 
 
 load_dotenv()
@@ -26,13 +27,28 @@ vector_store = Chroma.from_documents(documents=docs, embedding=embeddings)
 retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 5 })
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash",  
+    model="gemini-2.5-flash-lite",  
     temperature=0.3,  
     max_tokens=500,
 )
 
 query = st.text_input("Enter your question about movies:")
 prompt = query
+
+intent_system_prompt = (
+    "You are a text classifier. Analyze the user's input and classify it into exactly one of these categories:\n"
+    "1. MOVIE_QUERY: If the user is asking for movie recommendations, details about a specific movie, plot, cast, or ratings.\n"
+    "2. CHITCHAT: If the user is greeting (hi, hello) or asking general questions like 'how are you'.\n"
+    "3. OTHER: Anything else unrelated to movies or greetings.\n\n"
+    "Return ONLY the category name (MOVIE_QUERY, CHITCHAT, or OTHER). Do not write anything else."
+)
+
+intent_prompt = ChatPromptTemplate.from_messages([
+    ("system", intent_system_prompt),
+    ("user", "{input}")
+])
+
+intent_chain = intent_prompt | llm | StrOutputParser()
 
 system_prompt = (
     "You are a helpful movie recommendation assistant. Use the following movie database context to answer the user's question."
@@ -51,8 +67,18 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 if query:
-    question_answering_chain = create_stuff_documents_chain(llm, prompt)
-    rag_chain = create_retrieval_chain(retriever, question_answering_chain)
-    response = rag_chain.invoke({"input": query})
+    with st.spinner("Analyzing intent..."):
+        intent = intent_chain.invoke({"input": query}).strip()
+        st.caption(f"Detected Intent: {intent}")
 
-    st.write(response["answer"])
+    if intent == "MOVIE_QUERY":
+        with st.spinner("Searching movie database..."):
+            response = rag_chain.invoke({"input": query})
+            st.write(response["answer"])
+            
+    elif intent == "CHITCHAT":
+        response = simple_chat_chain.invoke({"input": query})
+        st.write(response)
+        
+    else: 
+        st.warning("I can only answer questions about movies or have a simple chat. Please ask about a movie!")

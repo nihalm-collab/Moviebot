@@ -53,6 +53,6 @@ prompt = ChatPromptTemplate.from_messages(
 if query:
     question_answering_chain = create_stuff_documents_chain(llm, prompt)
     rag_chain = create_retrieval_chain(retriever, question_answering_chain)
-    response = rag_chain.invoke({"input": prompt.format_messages(input=prompt).to_string()})
+    response = rag_chain.invoke({"input": query})
 
     st.write(response["answer"])

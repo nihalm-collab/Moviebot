@@ -15,6 +15,28 @@ load_dotenv()
 
 st.title("Movie Dictionary with Google Generative AI")
 
+with st.sidebar:
+    st.header("ℹ️ About")
+    st.markdown("""
+    This chatbot can:
+    - 🎥 Recommend movies
+    - ⭐ Show IMDB ratings
+    - 🎭 Search by genre
+    - 💬 Chat with you
+    - 👋 Greet and say goodbye
+    """)
+    
+    st.header("📊 Intent Types")
+    st.code("""
+    1. GREETING (Hello, Hi)
+    2. GOODBYE (Bye, See you)
+    3. MOVIE_QUERY (Movie questions)
+    4. REJECT (No, Cancel)
+    5. CHITCHAT (General chat)
+    6. OTHER (Everything else)
+    """)
+
+
 loader = CSVLoader("IMDB_Top_1000_Movies_Dataset.csv", encoding="utf-8")
 data = loader.load()
 

@@ -26,7 +26,7 @@ vector_store = Chroma.from_documents(documents=docs, embedding=embeddings)
 retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 5 })
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash-lite",  
+    model="gemini-2.5-flash",  
     temperature=0.3,  
     max_tokens=500,
 )

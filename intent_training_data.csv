@@ -1,0 +1,1218 @@
+intent,text
+MOVIE_QUERY,I want to need movie suggestions
+GOODBYE,That's all for now
+GOODBYE,Later?
+MOVIE_QUERY,Documentary recommendations
+MOVIE_QUERY,Suggest a good film!
+GOODBYE,Bye bye?
+GOODBYE,Bye for now
+GOODBYE,Have a good one
+MOVIE_QUERY,I want to watch something
+GREETING,Howdy?
+CHITCHAT,Makes sense
+MOVIE_QUERY,Audience favorites
+CHITCHAT,How have you been?
+MOVIE_QUERY,Silent films
+OTHER,IT help
+REJECT,Not my thing?
+GREETING,Hey there friend
+OTHER,Add to cart
+MOVIE_QUERY,What are the best movies of all time?
+MOVIE_QUERY,Spin offs
+CHITCHAT,Where are you from!
+MOVIE_QUERY,Show me drama movies?
+GOODBYE,See ya!
+MOVIE_QUERY,Can you classic films
+CHITCHAT,what are your capabilities
+GREETING,Can you hey
+MOVIE_QUERY,recent blockbusters
+GOODBYE,Cya?
+REJECT,That's not what I want
+REJECT,I reject that
+CHITCHAT,I see
+GOODBYE,Catch you later!
+OTHER,Recipe for pasta
+OTHER,Dog training
+MOVIE_QUERY,Critics choice movies
+CHITCHAT,Can you do you have a name
+OTHER,I want to shopping cart
+CHITCHAT,what's your name
+GOODBYE,Can you see you
+CHITCHAT,Can you are you a robot
+MOVIE_QUERY,I like science fiction!
+OTHER,What's the capital of France!
+CHITCHAT,Do you sleep
+OTHER,Fix my computer
+GOODBYE,later
+GREETING,Hey mate
+CHITCHAT,Do you remember me
+GOODBYE,Ttyl
+GREETING,GOOD AFTERNOON
+GREETING,Hello how are you doing
+GREETING,Good morning?
+REJECT,That's wrong
+MOVIE_QUERY,Sequels
+REJECT,Hold on
+GREETING,Hey there!
+REJECT,I'LL PASS
+OTHER,Current events
+OTHER,WRITE A PROGRAM
+REJECT,I DON'T THINK SO
+MOVIE_QUERY,what should i watch
+CHITCHAT,Do you eat
+OTHER,Can you add to cart
+GOODBYE,Signing off
+CHITCHAT,I want to what are you doing
+GREETING,Good morning
+OTHER,Can you calculate this
+GOODBYE,Farewell
+OTHER,Find me a hotel?
+MOVIE_QUERY,I want to recommend me a movie
+MOVIE_QUERY,Adventure films
+GREETING,Can you hiya
+CHITCHAT,How have you been!
+GOODBYE,Catch you later
+OTHER,Buy groceries
+REJECT,i changed my mind
+REJECT,False
+OTHER,Can you fix my computer
+OTHER,Can you what's the capital of france
+REJECT,nope
+OTHER,Solve this math problem?
+CHITCHAT,Are you a robot!
+GREETING,Hi again
+GOODBYE,SEE YOU
+GOODBYE,Have a good day?
+GOODBYE,Stay safe
+MOVIE_QUERY,best comedy films
+REJECT,Not a chance
+GREETING,Hello how are you doing?
+CHITCHAT,what can you do
+MOVIE_QUERY,AWARD WINNING FILMS
+REJECT,Absolutely not
+OTHER,find me a hotel
+MOVIE_QUERY,need movie suggestions
+OTHER,Learn guitar
+REJECT,Not useful
+GOODBYE,Ttyl!
+MOVIE_QUERY,movies from the 90s
+OTHER,I want to fix my computer
+GREETING,evening
+REJECT,I disagree
+CHITCHAT,Yep
+GOODBYE,Cya!
+CHITCHAT,Can you how are you doing
+GREETING,How's it going
+REJECT,forget it
+REJECT,I want to on second thought no
+OTHER,Write a program?
+CHITCHAT,Are you human!
+MOVIE_QUERY,Sports films
+GOODBYE,Have a good day
+OTHER,I want to book a flight
+MOVIE_QUERY,What's popular right now!
+REJECT,Nevermind?
+REJECT,No way
+GOODBYE,Until next time
+REJECT,NO THANKS
+MOVIE_QUERY,Can you i want to watch something
+REJECT,THAT'S NOT WHAT I WANT
+GREETING,Hi how are you
+GREETING,Pleased to meet you
+MOVIE_QUERY,Movie series
+REJECT,Not for me?
+OTHER,Ocean creatures
+GREETING,good morning
+MOVIE_QUERY,Can you recommend me a movie
+REJECT,Nope!
+GREETING,Can you hi how are you
+MOVIE_QUERY,What movie won Oscar
+OTHER,Blank
+GREETING,hi there
+GOODBYE,See you later!
+OTHER,Order pizza
+OTHER,Book a flight
+GREETING,Evening!
+GOODBYE,Have a good one!
+OTHER,Government policy
+CHITCHAT,I want to what's your name
+MOVIE_QUERY,TRENDING MOVIES
+OTHER,I want to geography question
+REJECT,I don't want that!
+MOVIE_QUERY,Can you top rated movies
+OTHER,Save money tips
+GOODBYE,Peace
+GOODBYE,I want to catch you later
+CHITCHAT,I want to are you ai
+GOODBYE,Can you cheers
+MOVIE_QUERY,Studio Ghibli
+OTHER,Calculate this!
+OTHER,Solve this math problem!
+CHITCHAT,I want to how old are you
+MOVIE_QUERY,What's The Godfather about
+REJECT,NOT INTERESTED
+OTHER,Financial planning
+CHITCHAT,Interesting
+REJECT,No
+CHITCHAT,I want to tell me about yourself
+OTHER,Investment advice
+REJECT,NOPE
+CHITCHAT,What's up!
+OTHER,Speak Spanish?
+OTHER,I want to order pizza
+MOVIE_QUERY,Short films
+GOODBYE,Bye bye
+OTHER,Can you order pizza
+OTHER,Philosophy question
+MOVIE_QUERY,Revolutionary cinema
+CHITCHAT,Can you tell me about yourself
+CHITCHAT,Alright
+CHITCHAT,What do you think
+MOVIE_QUERY,Black and white movies
+REJECT,Skip that!
+GOODBYE,Take care?
+MOVIE_QUERY,Movies similar to Interstellar
+MOVIE_QUERY,What should I watch?
+MOVIE_QUERY,I want to watch something?
+OTHER,I want to debug this code
+CHITCHAT,tell me about yourself
+REJECT,Nope?
+REJECT,I want to nevermind
+REJECT,Untrue
+MOVIE_QUERY,RECOMMEND THRILLER MOVIES
+OTHER,Geography question!
+MOVIE_QUERY,Classic films?
+MOVIE_QUERY,Modern cinema
+GOODBYE,Can you bye bye
+CHITCHAT,That's helpful
+MOVIE_QUERY,Feel good movies
+OTHER,What's the capital of France?
+REJECT,I want to nope
+MOVIE_QUERY,Suggest a good film?
+OTHER,Code in Python?
+GOODBYE,Goodbye?
+CHITCHAT,what are you up to
+OTHER,write a program
+CHITCHAT,Can you what can you do
+MOVIE_QUERY,Box office hits
+CHITCHAT,Can you are you human
+REJECT,Forget it
+MOVIE_QUERY,What are the best movies of all time!
+MOVIE_QUERY,I want to classic films
+OTHER,debug this code
+CHITCHAT,HOW ARE YOU
+OTHER,add to cart
+CHITCHAT,Can you what are you doing
+OTHER,Can you solve this math problem
+REJECT,Can you not interested
+MOVIE_QUERY,Tell me about Inception
+REJECT,I changed my mind?
+OTHER,calculate this
+GREETING,What's up
+GOODBYE,I want to until next time
+MOVIE_QUERY,Suggest a good film
+CHITCHAT,Appreciate it
+MOVIE_QUERY,Japanese movies
+CHITCHAT,What's your name
+OTHER,Geography question
+CHITCHAT,Are you a robot
+OTHER,Gardening tips
+GREETING,Hello once more
+GREETING,hello there
+OTHER,What's 2 plus 2
+MOVIE_QUERY,NEED MOVIE SUGGESTIONS
+REJECT,That sounds bad
+CHITCHAT,Nice
+CHITCHAT,What's the date
+OTHER,I want to code in python
+MOVIE_QUERY,TOP RATED MOVIES
+REJECT,Cancel
+REJECT,I changed my mind!
+OTHER,How to ask someone out
+MOVIE_QUERY,Can you what's a good action movie
+GREETING,Hi there
+GREETING,Hello movie bot
+MOVIE_QUERY,Love story films
+CHITCHAT,WHAT ARE YOU UP TO
+GREETING,hello how are you doing
+OTHER,FIND ME A HOTEL
+CHITCHAT,Can you who are you
+OTHER,What happened
+MOVIE_QUERY,Banned movies
+CHITCHAT,What are you up to!
+REJECT,not interested in that
+CHITCHAT,Can you what's your name
+OTHER,Fix my car
+GOODBYE,I want to ttyl
+CHITCHAT,Perfect
+MOVIE_QUERY,Can you movies with high imdb rating
+GREETING,I want to greetings
+OTHER,history fact
+CHITCHAT,Can you what are you up to
+CHITCHAT,I want to who are you
+GOODBYE,Have a good day!
+CHITCHAT,Can you how do you work
+CHITCHAT,What are you up to
+MOVIE_QUERY,What should I watch!
+GREETING,hi how are you
+OTHER,Fashion advice
+REJECT,i'll pass
+REJECT,I DON'T LIKE IT
+OTHER,Medical advice
+CHITCHAT,Can you where do you live
+REJECT,Not interested?
+GREETING,Good day
+OTHER,fix my computer
+MOVIE_QUERY,Can you what are the best movies of all time
+OTHER,SOLVE THIS MATH PROBLEM
+MOVIE_QUERY,Can you suggest a good film
+GREETING,Hey what's up
+CHITCHAT,Who made you
+CHITCHAT,I want to where are you from
+MOVIE_QUERY,What's a good action movie!
+MOVIE_QUERY,I want to top rated movies
+OTHER,Is this illegal
+GREETING,What's up?
+CHITCHAT,You're cool
+MOVIE_QUERY,Plot twist movies
+GOODBYE,Ttyl?
+MOVIE_QUERY,Trending movies!
+OTHER,Solve this math problem
+REJECT,I don't think so!
+REJECT,I don't think so
+REJECT,Can you i don't like it
+CHITCHAT,Correct
+GOODBYE,FAREWELL
+CHITCHAT,What are your capabilities!
+REJECT,Not for me
+CHITCHAT,What are your capabilities
+REJECT,Stop it
+GOODBYE,TAKE CARE
+OTHER,shopping cart
+CHITCHAT,Can you how's it going
+CHITCHAT,I want to do you have a name
+MOVIE_QUERY,Top rated movies!
+OTHER,I want to write a program
+CHITCHAT,Can you think
+OTHER,Can you geography question
+MOVIE_QUERY,classic films
+MOVIE_QUERY,What's a good action movie
+GOODBYE,bye bye
+GREETING,EVENING
+OTHER,Can you learn french
+MOVIE_QUERY,Show me drama movies!
+REJECT,I want to not interested
+OTHER,Who won the game
+MOVIE_QUERY,Can you movies from the 90s
+GREETING,Yo
+OTHER,RESERVE A TABLE
+REJECT,I want to i'll pass
+CHITCHAT,I want to where do you live
+REJECT,No thanks
+MOVIE_QUERY,Who directed Pulp Fiction
+REJECT,NOT MY THING
+REJECT,Can you not my thing
+MOVIE_QUERY,WHAT SHOULD I WATCH
+MOVIE_QUERY,Comic book movies
+REJECT,Not really
+GREETING,I want to morning
+GOODBYE,LATER
+MOVIE_QUERY,Superhero movies
+OTHER,Pet care
+CHITCHAT,Are you sad
+GOODBYE,Alright I'm out
+CHITCHAT,What's the weather like
+OTHER,Translate this!
+MOVIE_QUERY,RECENT BLOCKBUSTERS
+GREETING,Can you yo
+MOVIE_QUERY,looking for a movie
+OTHER,Baking tips
+CHITCHAT,How are you doing!
+REJECT,I DON'T WANT THAT
+OTHER,Reserve a table?
+REJECT,actually no
+OTHER,book a flight
+GREETING,Can you what's up
+MOVIE_QUERY,Historical films
+OTHER,DIY projects
+MOVIE_QUERY,Highest grossing movies
+GOODBYE,I want to see you
+CHITCHAT,What can you do!
+CHITCHAT,Thanks
+GOODBYE,Catch you later?
+MOVIE_QUERY,WHAT'S A GOOD ACTION MOVIE
+CHITCHAT,Can you what are your capabilities
+REJECT,I want to skip that
+REJECT,Definitely not
+CHITCHAT,What do you like
+REJECT,not for me
+GREETING,HOWDY
+OTHER,Home improvement
+GREETING,I want to sup
+CHITCHAT,how have you been
+GOODBYE,take care
+OTHER,ORDER PIZZA
+REJECT,i don't think so
+GREETING,Salutations
+CHITCHAT,where are you from
+GREETING,Can you hey there
+MOVIE_QUERY,Must watch films
+CHITCHAT,TELL ME ABOUT YOURSELF
+REJECT,NEVERMIND
+MOVIE_QUERY,Animated movies
+MOVIE_QUERY,What's popular right now?
+OTHER,Law question
+GREETING,Hi there?
+CHITCHAT,how's it going
+GREETING,Greetings!
+GREETING,Can you hi
+OTHER,Relationship help
+GREETING,I want to hey
+CHITCHAT,What are your capabilities?
+MOVIE_QUERY,Greatest film of all time
+OTHER,I want to learn french
+OTHER,Career advice
+REJECT,I don't like it?
+REJECT,Please don't
+MOVIE_QUERY,Classic films!
+REJECT,Stop suggesting
+MOVIE_QUERY,Franchises
+MOVIE_QUERY,Award winning films
+GOODBYE,I want to cheers
+MOVIE_QUERY,Latest releases
+CHITCHAT,How old are you!
+GREETING,yo
+OTHER,Add to cart?
+OTHER,Homework help
+OTHER,I want to reserve a table
+OTHER,Reserve a table
+OTHER,Workout routine
+GOODBYE,Talk to you later
+REJECT,No more
+REJECT,NO
+GREETING,greetings
+MOVIE_QUERY,CLASSIC FILMS
+CHITCHAT,WHAT'S UP
+MOVIE_QUERY,Need movie suggestions!
+MOVIE_QUERY,Can you recent blockbusters
+MOVIE_QUERY,Can you best comedy films
+MOVIE_QUERY,Controversial films
+GOODBYE,cheers
+GOODBYE,Gotta go?
+GOODBYE,See you?
+MOVIE_QUERY,I want to suggest a good film
+GOODBYE,Can you later
+GREETING,I want to hi how are you
+GOODBYE,Later
+REJECT,That's incorrect
+REJECT,I'd rather not
+CHITCHAT,are you ai
+GREETING,Can you hello there
+MOVIE_QUERY,IMDB score for Avatar
+OTHER,Can you reserve a table
+OTHER,TRANSLATE THIS
+GOODBYE,I want to cya
+CHITCHAT,Can you remember things
+OTHER,FIX MY COMPUTER
+CHITCHAT,I want to are you human
+REJECT,I want to not for me
+OTHER,Plant care
+MOVIE_QUERY,what are the best movies of all time
+MOVIE_QUERY,Cult classics
+CHITCHAT,what are you doing
+REJECT,not really
+OTHER,Debug this code?
+GOODBYE,Can you have a nice day
+REJECT,not my thing
+CHITCHAT,Say something funny
+REJECT,Not interested
+MOVIE_QUERY,i like science fiction
+CHITCHAT,Right
+REJECT,I don't think so?
+GOODBYE,Gotta go
+REJECT,I don't want that
+GOODBYE,Until we meet again
+MOVIE_QUERY,War movies
+OTHER,Study tips
+GOODBYE,I want to see ya
+MOVIE_QUERY,Trending movies?
+CHITCHAT,Are you busy
+GOODBYE,Bye
+GOODBYE,Take it easy
+OTHER,I want to speak spanish
+REJECT,That's not what I want!
+REJECT,On second thought no!
+GOODBYE,have a good day
+OTHER,Write a program!
+OTHER,Renovation ideas
+OTHER,SPEAK SPANISH
+OTHER,Meaning of life
+GREETING,Hello there?
+GREETING,hello
+GOODBYE,I want to talk to you later
+REJECT,Not interested!
+GREETING,Good evening?
+OTHER,What's the capital of France
+GREETING,hey there
+MOVIE_QUERY,Need movie suggestions
+MOVIE_QUERY,Action packed movies
+CHITCHAT,Yeah
+GOODBYE,have a good one
+GREETING,Hey I'm back
+MOVIE_QUERY,I WANT TO WATCH SOMETHING
+GOODBYE,Later!
+MOVIE_QUERY,I want to trending movies
+REJECT,I prefer not to
+GOODBYE,That's enough for today
+GOODBYE,HAVE A GOOD DAY
+GREETING,I want to hi there
+OTHER,I want to add to cart
+GREETING,GOOD MORNING
+CHITCHAT,Can you how have you been
+OTHER,Election results
+CHITCHAT,Who are you!
+REJECT,Can you nope
+MOVIE_QUERY,What's the rating of Titanic
+MOVIE_QUERY,Foreign films
+OTHER,BUY GROCERIES
+CHITCHAT,How are you
+MOVIE_QUERY,Can you award winning films
+MOVIE_QUERY,Recommend thriller movies?
+OTHER,Qwertyuiop
+MOVIE_QUERY,Sad movies
+MOVIE_QUERY,I want to movies from the 90s
+MOVIE_QUERY,I like science fiction?
+REJECT,On second thought no?
+GREETING,GOOD EVENING
+GOODBYE,GOODBYE
+REJECT,Exit
+GREETING,SUP
+CHITCHAT,Meh
+CHITCHAT,Tell me about yourself?
+GOODBYE,Can you have a good day
+GOODBYE,I'm done
+GOODBYE,See ya?
+REJECT,I want to i changed my mind
+GREETING,Happy to be here
+GOODBYE,until next time
+REJECT,Nevermind
+CHITCHAT,how are you
+CHITCHAT,Okay
+GREETING,I want to hey what's up
+MOVIE_QUERY,Long movies
+CHITCHAT,Can you how are you
+MOVIE_QUERY,Western movies
+OTHER,Book a flight!
+GOODBYE,gotta go
+CHITCHAT,How are you!
+OTHER,Find me a hotel
+REJECT,no thanks
+CHITCHAT,What day is it
+GREETING,HEY
+GOODBYE,TALK TO YOU LATER
+GOODBYE,I want to goodbye
+MOVIE_QUERY,Game changing films
+REJECT,I want to i don't want that
+CHITCHAT,Do you have a name?
+CHITCHAT,Are you happy
+GREETING,Howdy!
+GREETING,Morning sunshine
+MOVIE_QUERY,I LIKE SCIENCE FICTION
+CHITCHAT,I understand
+OTHER,What's 2 plus 2!
+MOVIE_QUERY,Recommend me a movie?
+GREETING,Hi?
+OTHER,I want to history fact
+GOODBYE,Talk to you later!
+GREETING,What's going on
+REJECT,Cease
+REJECT,I'm done with this
+OTHER,Can you book a flight
+OTHER,SHOPPING CART
+CHITCHAT,Can you are you ai
+CHITCHAT,are you a robot
+MOVIE_QUERY,MOVIES FROM THE 90S
+GOODBYE,I want to peace
+GREETING,Hi
+GREETING,Nice to chat with you
+CHITCHAT,Got it
+MOVIE_QUERY,International cinema
+OTHER,Geography question?
+MOVIE_QUERY,I want to looking for a movie
+OTHER,HISTORY FACT
+OTHER,Style tips
+REJECT,Can you not really
+MOVIE_QUERY,Quentin Tarantino films
+MOVIE_QUERY,Can you what's popular right now
+GREETING,HI THERE
+CHITCHAT,HOW ARE YOU DOING
+CHITCHAT,I want to what's up
+GREETING,I want to hello how are you doing
+GREETING,Evening?
+GREETING,Hi buddy
+GREETING,Nice to meet you
+MOVIE_QUERY,Kid friendly films
+GOODBYE,Okay I'm leaving
+MOVIE_QUERY,Movies with high IMDB rating!
+OTHER,Reserve a table!
+MOVIE_QUERY,Remakes
+MOVIE_QUERY,WHAT ARE THE BEST MOVIES OF ALL TIME
+REJECT,Skip that
+REJECT,This isn't helpful
+GOODBYE,talk to you later
+GOODBYE,HAVE A NICE DAY
+MOVIE_QUERY,Cast of The Dark Knight
+OTHER,Write a program
+GREETING,good evening
+OTHER,Speak Spanish!
+CHITCHAT,That's good
+GREETING,HELLO
+GOODBYE,Can you goodbye
+OTHER,Can you buy groceries
+CHITCHAT,ARE YOU A ROBOT
+OTHER,WHAT'S 2 PLUS 2
+MOVIE_QUERY,I want to recent blockbusters
+GREETING,Hi I'm new here
+REJECT,Can you that's not what i want
+MOVIE_QUERY,I want to recommend thriller movies
+OTHER,Shopping cart
+REJECT,no
+MOVIE_QUERY,Movies with plot twists
+OTHER,Political opinion
+GOODBYE,See you later
+CHITCHAT,I want to what can you do
+MOVIE_QUERY,Sci-fi epics
+OTHER,Can you speak spanish
+GOODBYE,I want to farewell
+OTHER,Health question
+MOVIE_QUERY,Prequels
+GOODBYE,ttyl
+OTHER,Auto maintenance
+CHITCHAT,Are you human?
+CHITCHAT,How do you work?
+OTHER,CALCULATE THIS
+CHITCHAT,are you human
+GREETING,Sup!
+MOVIE_QUERY,Movies with great soundtracks
+GREETING,Good afternoon?
+GOODBYE,Have a nice day?
+MOVIE_QUERY,Movies from the 90s
+REJECT,Incorrect
+MOVIE_QUERY,Period dramas
+REJECT,Nevermind!
+REJECT,That's not good
+REJECT,cancel
+CHITCHAT,How are you doing
+REJECT,I want to i don't think so
+MOVIE_QUERY,Films like Shawshank Redemption
+MOVIE_QUERY,I want to movies with high imdb rating
+MOVIE_QUERY,Steven Spielberg movies
+MOVIE_QUERY,I want to what are the best movies of all time
+REJECT,CANCEL
+OTHER,Write an essay
+CHITCHAT,I want to how are you
+REJECT,I don't want that?
+MOVIE_QUERY,Recent blockbusters?
+GOODBYE,Can you talk to you later
+CHITCHAT,Can you how old are you
+CHITCHAT,what's up
+MOVIE_QUERY,DC movies
+CHITCHAT,Share a fact
+CHITCHAT,Impress me
+OTHER,Technical support
+REJECT,On second thought no
+REJECT,Can you skip that
+CHITCHAT,WHAT ARE YOUR CAPABILITIES
+GOODBYE,I want to have a good one
+GREETING,hey what's up
+CHITCHAT,Are you human
+MOVIE_QUERY,Recommend thriller movies!
+GREETING,Hello there!
+OTHER,Add to cart!
+CHITCHAT,Where do you live?
+CHITCHAT,WHO ARE YOU
+REJECT,I refuse
+MOVIE_QUERY,Award winning films?
+MOVIE_QUERY,Can you need movie suggestions
+GREETING,Morning
+REJECT,Can you no
+MOVIE_QUERY,I want to best comedy films
+MOVIE_QUERY,Weekend movie suggestions
+MOVIE_QUERY,award winning films
+GREETING,Can you good afternoon
+GREETING,Can you good evening
+GREETING,Good afternoon
+REJECT,SKIP THAT
+REJECT,No?
+GOODBYE,Bye?
+OTHER,Cooking instructions
+MOVIE_QUERY,IMAX movies
+GOODBYE,Take care
+MOVIE_QUERY,Epic movies
+REJECT,Can you i don't think so
+MOVIE_QUERY,I want to what should i watch
+REJECT,Some other time
+MOVIE_QUERY,Movies from the 90s?
+CHITCHAT,How's the weather
+GREETING,I want to evening
+MOVIE_QUERY,Surround sound movies
+CHITCHAT,What's your opinion
+MOVIE_QUERY,MOVIES WITH HIGH IMDB RATING
+OTHER,Order pizza!
+MOVIE_QUERY,Low budget gems
+REJECT,Not my thing
+REJECT,Not really!
+CHITCHAT,Do you watch movies
+REJECT,Can you not for me
+GREETING,Hi there!
+CHITCHAT,What are you doing?
+CHITCHAT,Yes
+REJECT,I don't like it!
+OTHER,Can you what's 2 plus 2
+GOODBYE,Heading out
+GOODBYE,I want to later
+MOVIE_QUERY,Top rated movies
+GREETING,HI
+GREETING,Evening
+MOVIE_QUERY,Dance movies
+GOODBYE,Can you cya
+MOVIE_QUERY,True story movies
+CHITCHAT,You're helpful
+REJECT,Can you cancel
+GREETING,I want to hi
+MOVIE_QUERY,Korean films
+MOVIE_QUERY,Best comedy films?
+GOODBYE,cya
+GOODBYE,see you later
+GOODBYE,See you
+GREETING,Evening friend
+CHITCHAT,What do you enjoy
+OTHER,Calculate this
+GOODBYE,Can you see ya
+OTHER,I want to calculate this
+GOODBYE,BYE BYE
+REJECT,I want to no thanks
+CHITCHAT,I want to what are you up to
+MOVIE_QUERY,Disney movies
+MOVIE_QUERY,Recommend thriller movies
+CHITCHAT,Is it raining
+REJECT,Can you actually no
+MOVIE_QUERY,Most influential movies
+OTHER,Fix my computer!
+OTHER,Random gibberish
+CHITCHAT,how old are you
+CHITCHAT,HOW HAVE YOU BEEN
+MOVIE_QUERY,Looking for a movie?
+OTHER,Space facts
+GOODBYE,I want to have a good day
+REJECT,Actually no?
+CHITCHAT,DO YOU HAVE A NAME
+MOVIE_QUERY,movies with high imdb rating
+GREETING,Can you howdy
+GOODBYE,Gotta go!
+CHITCHAT,How's it going!
+REJECT,Don't
+OTHER,order pizza
+REJECT,skip that
+MOVIE_QUERY,suggest a good film
+CHITCHAT,Do you have emotions
+MOVIE_QUERY,Censored films
+MOVIE_QUERY,Hidden gems
+OTHER,buy groceries
+CHITCHAT,where do you live
+OTHER,Shopping cart!
+MOVIE_QUERY,SHOW ME DRAMA MOVIES
+REJECT,I CHANGED MY MIND
+MOVIE_QUERY,Horror movie recommendations
+OTHER,How to play piano
+GOODBYE,Alright thank you goodbye
+CHITCHAT,That's nice
+OTHER,Legal advice
+CHITCHAT,HOW DO YOU WORK
+REJECT,Not yet
+MOVIE_QUERY,Movies for family
+REJECT,Skip that?
+MOVIE_QUERY,Trending movies
+MOVIE_QUERY,Bollywood movies
+CHITCHAT,WHERE ARE YOU FROM
+MOVIE_QUERY,Mind bending movies
+GREETING,Sup
+GREETING,Good afternoon!
+MOVIE_QUERY,what's popular right now
+OTHER,Can you code in python
+GOODBYE,Have a nice day!
+MOVIE_QUERY,Movies with high IMDB rating?
+CHITCHAT,I want to how have you been
+REJECT,Wrong answer
+GREETING,Hey there?
+GOODBYE,bye
+REJECT,I want to that's not what i want
+GREETING,Hi movie helper
+REJECT,I'll pass?
+OTHER,Code in Python
+REJECT,i don't like it
+MOVIE_QUERY,Best comedy films!
+OTHER,speak spanish
+CHITCHAT,Where do you live!
+GREETING,Hiya?
+OTHER,I want to what's the capital of france
+GOODBYE,Goodbye for now
+GOODBYE,Have a nice day
+OTHER,Dating advice
+GREETING,I want to howdy
+CHITCHAT,I want to how's it going
+MOVIE_QUERY,I want to award winning films
+GREETING,YO
+CHITCHAT,Can you where are you from
+CHITCHAT,Who are you
+GOODBYE,See you!
+CHITCHAT,What can you do?
+CHITCHAT,Tell me something interesting
+MOVIE_QUERY,Romance movies
+CHITCHAT,I want to how do you work
+GREETING,Hello?
+MOVIE_QUERY,Psychological thrillers
+GOODBYE,Time to go
+OTHER,Cryptocurrency
+GREETING,Hey
+CHITCHAT,Good
+GOODBYE,Talk to you later?
+MOVIE_QUERY,I want to i want to watch something
+GOODBYE,Can you see you later
+MOVIE_QUERY,Recommend me a movie
+CHITCHAT,do you have a name
+GREETING,I want to good afternoon
+REJECT,Maybe later
+GOODBYE,Peace!
+REJECT,Not at this time
+GREETING,Greetings?
+REJECT,Not my thing!
+CHITCHAT,Surprise me
+REJECT,End this
+CHITCHAT,What's up
+MOVIE_QUERY,What's popular right now
+REJECT,I want to no
+CHITCHAT,Where are you from?
+GOODBYE,Be well
+GREETING,HI HOW ARE YOU
+OTHER,Am I sick
+MOVIE_QUERY,Movies with Leonardo DiCaprio
+CHITCHAT,Are you AI?
+MOVIE_QUERY,Underrated movies
+GREETING,Hey first time here
+OTHER,Buy groceries?
+CHITCHAT,How's it going?
+OTHER,I want to translate this
+MOVIE_QUERY,Pixar films
+MOVIE_QUERY,Can you what should i watch
+REJECT,I changed my mind
+REJECT,Can you not interested in that
+MOVIE_QUERY,What are the best movies of all time
+REJECT,Hell no
+MOVIE_QUERY,Musical films
+OTHER,Vacation spots
+OTHER,code in python
+REJECT,not interested
+REJECT,Not interested in that
+GREETING,hey
+MOVIE_QUERY,Video game movies
+REJECT,NOT INTERESTED IN THAT
+GREETING,Can you good morning
+OTHER,LEARN FRENCH
+MOVIE_QUERY,Movies from the 90s!
+MOVIE_QUERY,Can you looking for a movie
+REJECT,NOT REALLY
+GREETING,HIYA
+MOVIE_QUERY,Old classics
+REJECT,Try again
+GOODBYE,I want to gotta go
+GOODBYE,Can you take care
+MOVIE_QUERY,Can you i like science fiction
+GREETING,what's up
+MOVIE_QUERY,Director's cut movies
+OTHER,Can you history fact
+MOVIE_QUERY,what's a good action movie
+GOODBYE,That's it
+REJECT,I want to not interested in that
+CHITCHAT,What are you doing
+OTHER,I want to what's 2 plus 2
+GOODBYE,have a nice day
+MOVIE_QUERY,Emotional films
+MOVIE_QUERY,Date night movies
+MOVIE_QUERY,Classic films
+OTHER,Resume writing
+MOVIE_QUERY,Scary films
+GREETING,Hello!
+OTHER,Can you shopping cart
+REJECT,i don't want that
+GREETING,Hiya!
+CHITCHAT,Make me laugh
+GOODBYE,Can you until next time
+REJECT,I don't want to continue
+CHITCHAT,I want to what are your capabilities
+REJECT,I'll pass!
+MOVIE_QUERY,French cinema
+GOODBYE,Farewell?
+GOODBYE,Can you ttyl
+GOODBYE,Thanks for your help goodbye
+CHITCHAT,WHAT'S YOUR NAME
+MOVIE_QUERY,Indie movies
+MOVIE_QUERY,trending movies
+GREETING,Morning!
+CHITCHAT,Sure
+REJECT,NOT FOR ME
+GREETING,Can you hi there
+GREETING,Sup?
+CHITCHAT,How's it going
+OTHER,geography question
+REJECT,Can you i'll pass
+GOODBYE,Perfect thank you bye
+GOODBYE,see ya
+GREETING,Hi I need help with movies
+REJECT,Stop
+REJECT,I decline
+GOODBYE,Farewell!
+MOVIE_QUERY,Marvel films
+REJECT,that's not what i want
+GREETING,HEY WHAT'S UP
+CHITCHAT,How old are you
+GOODBYE,Can you bye
+GOODBYE,See ya
+REJECT,Not really?
+REJECT,Not interested in that?
+OTHER,Physics question
+GREETING,Hello I want movie suggestions
+OTHER,Hello world
+OTHER,Lorem ipsum
+REJECT,ACTUALLY NO
+CHITCHAT,HOW OLD ARE YOU
+GOODBYE,I want to have a nice day
+GREETING,Hey AI
+REJECT,I want to not really
+OTHER,I want to find me a hotel
+OTHER,Team standings
+CHITCHAT,Entertain me
+GOODBYE,Goodbye
+OTHER,Translate this
+OTHER,Stock prices
+GREETING,Yo!
+OTHER,Psychology facts
+MOVIE_QUERY,Show me drama movies
+MOVIE_QUERY,Recommend me a movie!
+REJECT,No!
+GOODBYE,I have to go
+MOVIE_QUERY,Can you trending movies
+GOODBYE,I'll come back later
+OTHER,Calculate this?
+CHITCHAT,Whatever
+MOVIE_QUERY,I want to watch something!
+GREETING,Hi chatbot
+CHITCHAT,What's your name!
+OTHER,Test test test
+REJECT,Can you nevermind
+MOVIE_QUERY,I want to show me drama movies
+REJECT,Wait
+GOODBYE,Take care!
+GREETING,Hey what's up?
+GOODBYE,Until next time?
+GOODBYE,SEE YOU LATER
+GOODBYE,I want to bye
+GREETING,Can you hello
+OTHER,Travel destinations
+MOVIE_QUERY,Extended editions
+CHITCHAT,How are you doing?
+CHITCHAT,What's your hobby
+GREETING,I want to hiya
+OTHER,History fact?
+REJECT,No thanks!
+GREETING,HELLO THERE
+OTHER,I don't know what to say
+OTHER,what's 2 plus 2
+MOVIE_QUERY,Movies to watch with friends
+CHITCHAT,WHERE DO YOU LIVE
+CHITCHAT,What's your favorite movie
+MOVIE_QUERY,Can you recommend thriller movies
+REJECT,Actually no!
+REJECT,I want to not my thing
+GREETING,I want to yo
+GOODBYE,Thank you goodbye
+OTHER,Music lessons
+MOVIE_QUERY,Christopher Nolan movies
+MOVIE_QUERY,Movies with high IMDB rating
+REJECT,I've had enough
+GOODBYE,I need to leave
+MOVIE_QUERY,I want to what's popular right now
+MOVIE_QUERY,I want to i like science fiction
+MOVIE_QUERY,What's a good movie for tonight
+MOVIE_QUERY,Based on real events
+GREETING,Greetings
+CHITCHAT,ARE YOU HUMAN
+GREETING,Can you hello how are you doing
+GREETING,hiya
+OTHER,Shopping cart?
+CHITCHAT,Who are you?
+CHITCHAT,WHAT ARE YOU DOING
+OTHER,Code in Python!
+GOODBYE,goodbye
+MOVIE_QUERY,Unpredictable films
+CHITCHAT,How have you been
+GOODBYE,Thanks and goodbye
+OTHER,Job search
+MOVIE_QUERY,Reboots
+CHITCHAT,Do you learn
+GREETING,Hey what's up!
+CHITCHAT,What keeps you occupied
+MOVIE_QUERY,Top 10 movies
+GREETING,Good morning!
+REJECT,Actually no
+OTHER,Learn French
+GREETING,Hello pal
+GOODBYE,SEE YA
+MOVIE_QUERY,recommend thriller movies
+OTHER,Sports scores
+REJECT,That's not what I want?
+GOODBYE,Can you gotta go
+GOODBYE,Okay thanks see you
+OTHER,BOOK A FLIGHT
+CHITCHAT,Are you a robot?
+GREETING,Hi how are you?
+OTHER,solve this math problem
+REJECT,I want to actually no
+GREETING,Can you hey what's up
+CHITCHAT,HOW'S IT GOING
+GREETING,Hi I'm looking for help
+GREETING,Can you sup
+CHITCHAT,How are you?
+GOODBYE,Cheers?
+CHITCHAT,How do you feel
+MOVIE_QUERY,4K movies
+GREETING,morning
+MOVIE_QUERY,Surprise ending movies
+CHITCHAT,How do you work
+OTHER,Book a flight?
+GREETING,HELLO HOW ARE YOU DOING
+GREETING,GREETINGS
+GREETING,I want to good morning
+MOVIE_QUERY,Top rated movies?
+MOVIE_QUERY,Need movie suggestions?
+MOVIE_QUERY,Academy Award winners
+CHITCHAT,Cool
+CHITCHAT,Where are you from
+CHITCHAT,Fine
+REJECT,I want to cancel
+GOODBYE,Until next time!
+CHITCHAT,What are you up to?
+OTHER,translate this
+OTHER,History fact!
+CHITCHAT,Can you what's up
+CHITCHAT,You're awesome
+OTHER,I want to solve this math problem
+GREETING,I want to hello
+MOVIE_QUERY,Book adaptations
+OTHER,Car repair
+CHITCHAT,Do you get tired
+OTHER,Fitness advice
+OTHER,I want to buy groceries
+OTHER,Fix my computer?
+CHITCHAT,WHAT CAN YOU DO
+REJECT,nevermind
+REJECT,I want to i don't like it
+GOODBYE,UNTIL NEXT TIME
+GOODBYE,CYA
+GOODBYE,TTYL
+MOVIE_QUERY,Golden Globe films
+GOODBYE,I want to see you later
+GOODBYE,Goodbye!
+OTHER,Debug this code
+REJECT,Nope
+GREETING,Howdy
+MOVIE_QUERY,LOOKING FOR A MOVIE
+REJECT,I'll pass
+GREETING,Hello there
+MOVIE_QUERY,Best comedy films
+OTHER,What's 2 plus 2?
+GOODBYE,Cheers
+GOODBYE,catch you later
+MOVIE_QUERY,I want to what's a good action movie
+CHITCHAT,Do you have a name
+REJECT,Not for me!
+CHITCHAT,who are you
+MOVIE_QUERY,Recent blockbusters!
+REJECT,Forget it!
+GREETING,Hi!
+REJECT,That's enough
+OTHER,Can you translate this
+CHITCHAT,What's up?
+CHITCHAT,Do you like films
+GOODBYE,Thanks bye
+CHITCHAT,What time is it
+OTHER,Cat behavior
+OTHER,Find me a hotel!
+GREETING,Good evening!
+CHITCHAT,I want to how are you doing
+CHITCHAT,Exactly
+GREETING,Greetings assistant
+GOODBYE,See you soon
+CHITCHAT,Tell me about yourself!
+REJECT,No thanks?
+REJECT,Not interested in that!
+GREETING,Hey?
+MOVIE_QUERY,Looking for a movie!
+OTHER,WHAT'S THE CAPITAL OF FRANCE
+CHITCHAT,Random fact
+REJECT,Can you i changed my mind
+GOODBYE,Can you farewell
+MOVIE_QUERY,WHAT'S POPULAR RIGHT NOW
+GOODBYE,see you
+GOODBYE,Can you catch you later
+CHITCHAT,When were you created
+GOODBYE,Can you have a good one
+GOODBYE,I want to take care
+REJECT,Cancel?
+GREETING,Hello world
+GREETING,Can you morning
+GREETING,Hey can you recommend something
+MOVIE_QUERY,2000s movies
+GOODBYE,BYE
+GREETING,Hello
+GOODBYE,That was helpful bye
+MOVIE_QUERY,Can you show me drama movies
+REJECT,This isn't working
+CHITCHAT,What's your name?
+GREETING,Greetings friend
+GREETING,hi
+MOVIE_QUERY,recommend me a movie
+GREETING,I want to hello there
+MOVIE_QUERY,top rated movies
+GOODBYE,Can you peace
+OTHER,Debug this code!
+OTHER,How to grow tomatoes
+MOVIE_QUERY,SUGGEST A GOOD FILM
+CHITCHAT,Are you intelligent
+REJECT,Can you forget it
+GOODBYE,Appreciate it bye
+OTHER,Asdfghjkl
+OTHER,Exercise plan
+OTHER,Nothing
+CHITCHAT,Tell me about yourself
+OTHER,ADD TO CART
+MOVIE_QUERY,Fantasy adventures
+OTHER,Buy groceries!
+GREETING,howdy
+MOVIE_QUERY,Award winning films!
+GREETING,MORNING
+MOVIE_QUERY,What's the best movie ever
+GOODBYE,farewell
+OTHER,History fact
+MOVIE_QUERY,What's a good action movie?
+CHITCHAT,What can you do
+MOVIE_QUERY,Meryl Streep movies
+CHITCHAT,how do you work
+REJECT,I don't like it
+GREETING,Hi how are you!
+GREETING,What's up!
+CHITCHAT,Are you smart
+OTHER,News today
+GOODBYE,Have a good one?
+GREETING,HEY THERE
+OTHER,Can you write a program
+GOODBYE,peace
+GREETING,Yo?
+GREETING,Good evening
+MOVIE_QUERY,Remastered films
+OTHER,Can you debug this code
+OTHER,Order pizza?
+GOODBYE,PEACE
+MOVIE_QUERY,Recent blockbusters
+GOODBYE,Got what I needed thanks bye
+MOVIE_QUERY,Looking for a movie
+GREETING,I want to good evening
+OTHER,Tell me about dinosaurs
+MOVIE_QUERY,RECOMMEND ME A MOVIE
+CHITCHAT,What are you doing!
+REJECT,I want to forget it
+REJECT,ON SECOND THOUGHT NO
+GOODBYE,See you later?
+CHITCHAT,You're great
+OTHER,DEBUG THIS CODE
+OTHER,reserve a table
+REJECT,Can you i don't want that
+GREETING,Hiya
+MOVIE_QUERY,3D films
+OTHER,Speak Spanish
+OTHER,CODE IN PYTHON
+REJECT,Can you no thanks
+OTHER,Learn French!
+MOVIE_QUERY,Solo watching recommendations
+GREETING,Hey there
+GOODBYE,HAVE A GOOD ONE
+CHITCHAT,ARE YOU AI
+CHITCHAT,Where do you live
+GOODBYE,CHEERS
+OTHER,GEOGRAPHY QUESTION
+GREETING,WHAT'S UP
+GREETING,I want to hey there
+GREETING,Hello I just started using this
+GOODBYE,CATCH YOU LATER
+MOVIE_QUERY,BEST COMEDY FILMS
+GOODBYE,I want to bye bye
+REJECT,on second thought no
+GOODBYE,I'll be going now
+GREETING,Hello can you help me
+GREETING,Morning?
+CHITCHAT,How do you work!
+MOVIE_QUERY,I like science fiction
+OTHER,Learn French?
+OTHER,Science experiment
+CHITCHAT,How old are you?
+MOVIE_QUERY,show me drama movies
+CHITCHAT,Thank you
+REJECT,Can you on second thought no
+GOODBYE,GOTTA GO
+REJECT,Quit
+GREETING,Can you evening
+GOODBYE,Bye bye!
+GOODBYE,Cya
+CHITCHAT,Do you drink
+CHITCHAT,Do you recall our conversation
+REJECT,I'm not ready
+MOVIE_QUERY,Films with amazing music
+OTHER,Chemistry help
+GREETING,Good to see you
+REJECT,FORGET IT
+MOVIE_QUERY,Best movies of 2020
+MOVIE_QUERY,i want to watch something
+CHITCHAT,What did I say earlier
+CHITCHAT,You helped me
+OTHER,Can you find me a hotel
+MOVIE_QUERY,Contemporary films
+OTHER,Translate this?
+CHITCHAT,Tell me a joke
+GREETING,good afternoon
+CHITCHAT,how are you doing
+CHITCHAT,I want to are you a robot
+GREETING,I want to what's up
+GREETING,Hello assistant
+REJECT,Give me something else
+OTHER,learn french
+GREETING,sup
+OTHER,What to wear
+MOVIE_QUERY,Trilogies
+REJECT,Not now
+GOODBYE,Peace?
+GREETING,Can you greetings
+OTHER,what's the capital of france
+REJECT,Cancel!
+OTHER,Where should I travel
+CHITCHAT,Are you AI
+OTHER,Bitcoin value
+GOODBYE,Cheers!
+MOVIE_QUERY,What should I watch
+GOODBYE,Bye!
+GREETING,Hello how are you doing!
+CHITCHAT,Great
+CHITCHAT,Are you AI!
+REJECT,Forget it?
+MOVIE_QUERY,Tom Hanks films
+CHITCHAT,Do you have a name!
+GREETING,Hey!

@@ -12,9 +12,9 @@ from langchain_classic.chains import create_retrieval_chain
 
 load_dotenv()
 
-st.title("Movie Dictionary with Google Generative AI")
+st.title("Moviebot")
 
-loader = CSVLoader("IMDB_Top_1000_Movies_Dataset.csv", encoding="utf-8")
+loader = CSVLoader("IMDB_Top_1000_Movies_Dataset.csv")
 data = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
@@ -23,7 +23,7 @@ docs = text_splitter.split_documents(data)
 embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004", task_batch_size=100)
 vector_store = Chroma.from_documents(documents=docs, embedding=embeddings)
 
-retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 10 })
+retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 5 })
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash-lite",  

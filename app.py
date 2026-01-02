@@ -14,7 +14,7 @@ load_dotenv()
 
 st.title("Moviebot")
 
-loader = CSVLoader("IMDB_Top_1000_Movies_Dataset.csv")
+loader = CSVLoader("IMDB_Top_1000_Movies_Dataset.csv", encoding ='utf-8')
 data = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=0)

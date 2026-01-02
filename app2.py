@@ -120,7 +120,7 @@ if query := st.chat_input("Ask me movies..."):
         
         # A) Sohbet / Selamlaşma (LLM Harcamaz)
         if intent == "GREETING":
-            response_text = "Hello! How can 🎬"
+            response_text = "Hello! How can i help you? 🎬"
             st.write(response_text)
             
         elif intent == "GOODBYE":

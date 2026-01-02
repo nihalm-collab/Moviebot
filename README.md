@@ -21,7 +21,7 @@ Moviebot is an intelligent movie recommendation chatbot built with Streamlit and
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/nihalm-collab/gemini-basic-example.git
 cd moviebot
 ```
 

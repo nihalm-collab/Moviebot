@@ -8,18 +8,24 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 from langchain_classic.chains import create_retrieval_chain
-
+import pandas as pd
 
 load_dotenv()
 
-st.title("Moviebot")
+st.set_page_config(page_title="MovieBot RAG", layout="wide")
 
-loader = CSVLoader("IMDB_Top_1000_Movies_Dataset.csv",csv_args={
-        'delimiter': ',',
-        'quotechar': '"',
-    },
-    encoding='utf-8',
-    source_column="Movie_Name")
+st.title("🎬 IMDB Film Asistanı")
+
+@st.cache_resource
+def load_intent_model():
+    # Eğittiğimiz modeli yükle
+    if os.path.exists('models/intent_model.pkl'):
+        return joblib.load('models/intent_model.pkl')
+    return None
+
+classifier = load_intent_model()
+
+loader = CSVLoader("IMDB_Top_1000_Movies_Dataset.csv", encoding ='utf-8')
 data = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=0)
@@ -32,10 +38,10 @@ for doc in data:
 embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004", task_batch_size=100)
 vector_store = Chroma.from_documents(documents=docs, embedding=embeddings)
 
-retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 10 })
+retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 5 })
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash-lite",  
+    model="gemini-2.5-flash",  
     temperature=0.3,  
     max_tokens=500,
 )
@@ -60,17 +66,52 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-if query:
-    retrieved_docs = retriever.invoke(query)
+if query := st.chat_input("Mesajınızı yazın..."):
+    st.session_state.messages.append({"role": "user", "content": query})
+    with st.chat_message("user"):
+        st.write(query)
 
-    with st.expander("🔍 Retrieved Context (Debug)"):
-        for i, doc in enumerate(retrieved_docs):
-                st.write(f"**Document {i+1}:**")
-                st.write(doc.page_content[:500]) 
-                st.write("---")
+    # 1. NİYET ANALİZİ (INTENT CLASSIFICATION)
+    intent = "MOVIE_QUERY" # Model yoksa varsayılan
+    if classifier:
+        intent = classifier.predict([query])[0]
     
-    question_answering_chain = create_stuff_documents_chain(llm, prompt)
-    rag_chain = create_retrieval_chain(retriever, question_answering_chain)
-    response = rag_chain.invoke({"input": query})
+    # Debug için yan tarafa yazdırabilirsiniz (Hoca görsün diye)
+    st.sidebar.markdown(f"**Tespit Edilen Niyet:** `{intent}`")
 
-    st.write(response["answer"])
+    response_text = ""
+
+    # 2. INTENT'E GÖRE AKSİYON
+    if intent == "GREETING":
+        response_text = "Merhaba! Ben bir film uzmanıyım. Sana nasıl yardımcı olabilirim?"
+        
+    elif intent == "GOODBYE":
+        response_text = "Görüşmek üzere! İyi seyirler."
+        
+    elif intent == "CHITCHAT":
+        response_text = "Ben bir yapay zeka asistanıyım, sadece filmlerden anlarım! 🎬"
+        
+    elif intent == "REJECT":
+        response_text = "Pekala, başka bir konuda yardımcı olmamı ister misin?"
+        
+    elif intent == "OTHER":
+        response_text = "Üzgünüm, şu an sadece filmler hakkında konuşabiliyorum. Siyaset veya yemek tarifleri alanım dışı. 😊"
+        
+    elif intent == "MOVIE_QUERY":
+        # --- BURADA MEVCUT RAG ZİNCİRİNİZ ÇALIŞACAK ---
+        with st.chat_message("assistant"):
+            with st.spinner(f"{model_choice} veritabanını tarıyor..."):
+                if retriever:
+                    question_answering_chain = create_stuff_documents_chain(llm, prompt_template)
+                    rag_chain = create_retrieval_chain(retriever, question_answering_chain)
+                    response = rag_chain.invoke({"input": query})
+                    response_text = response["answer"]
+                else:
+                    response_text = "Veritabanı bağlantısında sorun var."
+
+    # Cevabı Yazdır (Eğer RAG değilse yukarıda atanmıştı, RAG ise zaten yazıldı ama geçmişe eklemek lazım)
+    if intent != "MOVIE_QUERY":
+        with st.chat_message("assistant"):
+            st.write(response_text)
+            
+    st.session_state.messages.append({"role": "assistant", "content": response_text})

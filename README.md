@@ -115,4 +115,6 @@ python intent_classification_model/train_classifier.py
 
 ## Çalışma Videosu
 
+https://github.com/user-attachments/assets/6eff5bd4-ec26-4d9e-96f0-c1c9ba09ec3b
+
 

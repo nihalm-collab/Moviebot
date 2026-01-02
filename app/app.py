@@ -29,11 +29,14 @@ def load_intent_model():
 @st.cache_resource
 def initialize_vectorstore():
     """Uploads and initializes the vector store from the CSV dataset."""
-    if not os.path.exists("IMDB_Top_1000_Movies_Dataset.csv"):
+    
+    file_path = "data/IMDB_Top_1000_Movies_Dataset.csv"
+
+    if not os.path.exists(file_path):
         st.error("Dataset file not found.")
         return None
 
-    loader = CSVLoader("IMDB_Top_1000_Movies_Dataset.csv", encoding='utf-8')
+    loader = CSVLoader(file_path, encoding='utf-8')
     data = loader.load()
 
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=200)
@@ -87,7 +90,7 @@ with st.sidebar:
     if classifier:
         st.success("✅ Intent Model Active")
     else:
-        st.warning("⚠️ Intent Model not uploaded.")
+        st.warning("⚠️ Intent Model Inactivate.")
 
 # Sohbet Geçmişini Başlat
 if "messages" not in st.session_state:
@@ -136,7 +139,7 @@ if query := st.chat_input("Ask me movies..."):
             st.write(response_text)
             
         elif intent == "OTHER":
-            response_text = "I'm sorry, but I can't discuss politics, weather, or recipes. Let's keep the conversation focused on movies! 🍿"
+            response_text = "I'm sorry, but I can't discuss politics, weather, or recipes etc. Let's keep the conversation focused on movies! 🍿"
             st.write(response_text)
             
         # B) Film Sorusu (RAG Devreye Girer)

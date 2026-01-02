@@ -7,9 +7,9 @@ from sklearn.metrics import classification_report, confusion_matrix
 import joblib
 
 # 1. Veriyi Yükle
-df = pd.read_csv("intent_classification_dataset.csv")
+df = pd.read_csv("data/intent_classification_dataset.csv")
 
-# 2. Train / Test Ayrımı (Ödev Kriteri: %80 Eğitim, %20 Test)
+# 2. Train / Test Ayrımı Yap
 X_train, X_test, y_train, y_test = train_test_split(
     df['text'], df['intent'], test_size=0.2, random_state=42
 )
@@ -36,5 +36,5 @@ print("\n--- Confusion Matrix ---")
 print(confusion_matrix(y_test, y_pred))
 
 # 6. Modeli Kaydet (Uygulamada kullanmak için)
-joblib.dump(pipeline, 'intent_model.pkl')
+joblib.dump(pipeline, 'intent_classificiation_model/intent_model.pkl')
 print("\nModel 'intent_model.pkl' olarak kaydedildi.")

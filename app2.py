@@ -61,7 +61,7 @@ prompt = ChatPromptTemplate.from_messages(
 )
 
 if query:
-    retrieved_docs = retriever.get_relevant_documents(query)
+    retrieved_docs = retriever.invoke(query)
 
     with st.expander("🔍 Retrieved Context (Debug)"):
         for i, doc in enumerate(retrieved_docs):

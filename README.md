@@ -18,7 +18,7 @@ Bu proje, maliyet ve performansı optimize etmek için **Intent Sınıflandırma
 Proje dosyaları aşağıdaki dizin yapısına göre organize edilmiştir:
 
 ```text
-GEMINI-STREAMLIT-MOVIEBOT/
+gemini-basic-example/
 ├── app/
 │   ├── app.py                            # Ana Streamlit uygulama dosyası
 │   └── Moviebot.ipynb                    # Geliştirme ve test not defteri

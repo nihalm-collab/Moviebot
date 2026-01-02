@@ -21,7 +21,7 @@ st.title("🎬 Moviebot")
 @st.cache_resource
 def load_intent_model():
     """Eğitilmiş intent sınıflandırma modelini yükler."""
-    model_path = 'intent_model.pkl'
+    model_path = 'intent_classification_model/intent_model.pkl'
     if os.path.exists(model_path):
         return joblib.load(model_path)
     return None

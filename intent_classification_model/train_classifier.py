@@ -5,6 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import classification_report, confusion_matrix
 import joblib
+import os
 
 # 1. Veriyi Yükle
 df = pd.read_csv("data/intent_classification_dataset.csv")
@@ -36,5 +37,8 @@ print("\n--- Confusion Matrix ---")
 print(confusion_matrix(y_test, y_pred))
 
 # 6. Modeli Kaydet (Uygulamada kullanmak için)
-joblib.dump(pipeline, 'intent_classificiation_model/intent_model.pkl')
+model_dir = "intent_classification_model"
+model_path = os.path.join(model_dir, "intent_model.pkl")
+
+joblib.dump(pipeline, model_path)
 print("\nModel 'intent_model.pkl' olarak kaydedildi.")

@@ -10,13 +10,13 @@ from dotenv import load_dotenv
 import joblib
 import os
 
-# 1. Ayarlar ve API Anahtarları
+
 st.set_page_config(page_title="MovieBot RAG", layout="wide")
 load_dotenv()
 
-st.title("🎬 AI Destekli Film Asistanı")
+st.title("🎬 Moviebot")
 
-# --- 2. ÖNBELLEKLEME (PERFORMANS İÇİN) ---
+
 
 @st.cache_resource
 def load_intent_model():
@@ -28,9 +28,9 @@ def load_intent_model():
 
 @st.cache_resource
 def initialize_vectorstore():
-    """Film verisetini yükler ve vektör veritabanını hazırlar."""
+    """Uploads and initializes the vector store from the CSV dataset."""
     if not os.path.exists("IMDB_Top_1000_Movies_Dataset.csv"):
-        st.error("Veri seti dosyası (csv) bulunamadı!")
+        st.error("Dataset file not found.")
         return None
 
     loader = CSVLoader("IMDB_Top_1000_Movies_Dataset.csv", encoding='utf-8')
@@ -49,21 +49,20 @@ classifier = load_intent_model()
 retriever = initialize_vectorstore()
 
 # --- 3. SABİT GEMINI MODELİ TANIMI ---
-# Model seçimi kaldırıldı, doğrudan Gemini tanımlanıyor.
+
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash-lite", # 2.5 henüz genel kullanıma açık değil, 1.5 en kararlı sürüm
-    temperature=0.3,
+    model="gemini-2.5-flash-lite",
     max_tokens=500
 )
 
 # --- 4. RAG PROMPT TASARIMI ---
 system_prompt = (
-    "Sen yardımsever bir film öneri asistanısın. Aşağıdaki film veritabanı bağlamını (context) kullanarak kullanıcının sorularını yanıtla."
+    "You are a helpful movie recommendation assistant. Use the following movie database context to answer the user's question."    "\n\n"
     "\n\n"
-    "Kurallar:"
-    "1. Sadece verilen bağlamdaki (context) filmleri öner."
-    "2. İlgili yerlerde IMDB puanı, yıl ve oyuncu bilgilerini belirt."
-    "3. Eğer bağlamda cevap yoksa, dürüstçe 'Veri setimde bu bilgi yok' de."
+    "Rules:"
+    "1. Only recommend movies from the provided context"
+    "2. Mention IMDB ratings and year where relevant."
+    "3. If you don't find suitable movies in the context, say so honestly."
     "\n\n"
     "Context:\n{context}"
 )
@@ -79,16 +78,16 @@ prompt_template = ChatPromptTemplate.from_messages(
 
 # Yan Menü (Sadece temizleme butonu kaldı)
 with st.sidebar:
-    st.header("⚙️ İşlemler")
-    if st.button("Sohbeti Temizle"):
+    st.header("⚙️ Functions")
+    if st.button("Clear Chat History"):
         st.session_state.messages = []
         st.rerun()
     
     # Debug: Modelin yüklü olup olmadığını göster
     if classifier:
-        st.success("✅ Intent Modeli Aktif")
+        st.success("✅ Intent Model Active")
     else:
-        st.warning("⚠️ Intent Modeli Yüklenemedi")
+        st.warning("⚠️ Intent Model not uploaded.")
 
 # Sohbet Geçmişini Başlat
 if "messages" not in st.session_state:
@@ -100,7 +99,7 @@ for message in st.session_state.messages:
         st.write(message["content"])
 
 # KULLANICI GİRDİSİ
-if query := st.chat_input("Film sorun veya sohbet edin..."):
+if query := st.chat_input("Ask me movies..."):
     
     # 1. Kullanıcı mesajını ekle
     st.session_state.messages.append({"role": "user", "content": query})
@@ -125,24 +124,24 @@ if query := st.chat_input("Film sorun veya sohbet edin..."):
             st.write(response_text)
             
         elif intent == "GOODBYE":
-            response_text = "Görüşmek üzere! İyi seyirler dilerim."
+            response_text = "See you later! Enjoy your movies! 🍿"
             st.write(response_text)
             
         elif intent == "CHITCHAT":
-            response_text = "Ben sadece filmlerden anlayan bir asistanım. Bana favori türünü sorabilirsin!"
+            response_text = "I am here to chat about movies! What would you like to know? 🎥"
             st.write(response_text)
             
         elif intent == "REJECT":
-            response_text = "Anladım, başka bir öneri ister misin?"
+            response_text = "I understand. If you have any movie questions later, feel free to ask! 🎬"
             st.write(response_text)
             
         elif intent == "OTHER":
-            response_text = "Üzgünüm, siyaset, hava durumu veya yemek tarifleri alanım dışı. Sadece sinema konuşalım! 🍿"
+            response_text = "I'm sorry, but I can't discuss politics, weather, or recipes. Let's keep the conversation focused on movies! 🍿"
             st.write(response_text)
             
         # B) Film Sorusu (RAG Devreye Girer)
         else: # MOVIE_QUERY veya Tanımsız
-            with st.spinner("Veritabanı taranıyor..."):
+            with st.spinner("Database searching..."):
                 if retriever:
                     question_answering_chain = create_stuff_documents_chain(llm, prompt_template)
                     rag_chain = create_retrieval_chain(retriever, question_answering_chain)
@@ -151,7 +150,7 @@ if query := st.chat_input("Film sorun veya sohbet edin..."):
                     response_text = response["answer"]
                     st.write(response_text)
                 else:
-                    response_text = "Veritabanı bağlantısı kurulamadı."
+                    response_text = "Database not connected."
                     st.error(response_text)
 
     # 4. Asistan cevabını geçmişe kaydet

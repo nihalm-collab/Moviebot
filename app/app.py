@@ -1,3 +1,5 @@
+
+# --- 0. GEREKLİ KÜTÜPHANELERİN İÇE AKTARIMI ---
 import streamlit as st
 from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -11,11 +13,12 @@ import joblib
 import os
 
 
+# --- 1. STREAMLIT SAYFA AYARLARI ---
+
 st.set_page_config(page_title="MovieBot RAG", layout="wide")
 load_dotenv()
 
 st.title("🎬 Moviebot")
-
 
 
 @st.cache_resource
@@ -25,6 +28,8 @@ def load_intent_model():
     if os.path.exists(model_path):
         return joblib.load(model_path)
     return None
+
+# --- 2. VERİ SETİNİ YÜKLEME + VERİYİ PARÇALAMA + VEKTÖR DEPOSU OLUŞTURMA ---
 
 @st.cache_resource
 def initialize_vectorstore():
@@ -48,10 +53,11 @@ def initialize_vectorstore():
     return vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 5})
 
 # Kaynakları yükle
+
 classifier = load_intent_model()
 retriever = initialize_vectorstore()
 
-# --- 3. SABİT GEMINI MODELİ TANIMI ---
+# --- 3. GEMINI MODELİ TANIMI ---
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash-lite",
@@ -79,7 +85,7 @@ prompt_template = ChatPromptTemplate.from_messages(
 
 # --- 5. CHAT ARAYÜZÜ VE AKIŞ ---
 
-# Yan Menü (Sadece temizleme butonu kaldı)
+# Yan Menü (Temizleme butonu)
 with st.sidebar:
     st.header("⚙️ Functions")
     if st.button("Clear Chat History"):
@@ -93,15 +99,18 @@ with st.sidebar:
         st.warning("⚠️ Intent Model Inactivate.")
 
 # Sohbet Geçmişini Başlat
+
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
 # Eski mesajları ekrana bas
+
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.write(message["content"])
 
 # KULLANICI GİRDİSİ
+
 if query := st.chat_input("Ask me movies..."):
     
     # 1. Kullanıcı mesajını ekle
@@ -115,13 +124,11 @@ if query := st.chat_input("Ask me movies..."):
     # 2. INTENT (NİYET) TAHMİNİ
     if classifier:
         intent = classifier.predict([query])[0]
-        # İsteğe bağlı: Niyeti debug için konsola veya sidebara yazdırabilirsin
-        # print(f"Tahmin edilen niyet: {intent}")
 
     # 3. NİYETE GÖRE CEVAPLAMA MANTIĞI
     with st.chat_message("assistant"):
         
-        # A) Sohbet / Selamlaşma (LLM Harcamaz)
+        # A) Sohbet / Selamlaşma / Red / Vedalaşma (LLM Harcamaz)
         if intent == "GREETING":
             response_text = "Hello! How can i help you? 🎬"
             st.write(response_text)

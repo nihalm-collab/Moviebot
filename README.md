@@ -1,112 +1,111 @@
-🎬 MovieBot
-MovieBot, film severler için geliştirilmiş, Kaggle'dan https://www.kaggle.com/datasets/hrishabhtiwari/imdb-top-1000-movies-dataset bağlantısı üzerinden indirdiğim IMDB Top 1000 veri setini ve Google Gemini yapay zekasını kullanan hibrit bir sohbet asistanıdır.
+# Moviebot - AI-Powered Movie Recommendation System
 
-Bu proje, maliyet ve performansı optimize etmek için Intent Sınıflandırma (Niyet Analizi) ile RAG (Retrieval-Augmented Generation) mimarisini bir arada kullanır. Basit sohbetler yerel bir modelle, karmaşık film sorguları ise Gemini AI ile yanıtlanır.
+Moviebot is an intelligent movie recommendation chatbot built with Streamlit and LangChain. It uses RAG (Retrieval-Augmented Generation) architecture to answer questions about movies from the IMDB Top 1000 dataset.
 
-## Özellikler
+## Features
 
-- 🧠 Hibrit Yapı:
-      - **Niyet Analizi:** Kullanıcının amacını (Selamlaşma, Film Sorusu vb.) yerel bir modelle (scikit-learn) tespit eder.
-      - **RAG Motoru:** Film soruları için vektör veritabanından bağlam (context) çeker.
-- **📂 Modüler Yapı:** Veriler, model eğitimi ve uygulama mantığı ayrı klasörlerde organize edilmiştir.
-- **🔍 Vektör Arama:** ChromaDB kullanarak filmler arasında anlamsal arama yapar.
-- **🤖 Google Gemini:** Doğal dil işleme ve cevap üretimi için gemini-2.5-flash-lite modelini kullanır.
+- 🎬 Natural language queries about movies
+- 🔍 Semantic search using Google's embedding models
+- 🤖 Powered by Google's Gemini 2.5 Flash Lite
+- 📊 Recommendations based on IMDB Top 1000 movies
+- ⚡ Fast vector similarity search with ChromaDB
+- 💬 Context-aware responses with ratings and release years
 
-## Ön Şartlar
+## Prerequisites
 
 - Python 3.8+
-- Google API Key (LLM ve Embeddings için)
-- IMDB Top 1000 Movies Dataset (CSV dosyası)
+- Google API Key (for Gemini and Embeddings)
+- IMDB Top 1000 Movies Dataset (CSV file)
 
-## 📂 Proje Yapısı
-Proje dosyaları aşağıdaki dizin yapısına göre organize edilmiştir:
+## Installation
 
-GEMINI-STREAMLIT-MOVIEBOT/
-├── app/
-│   ├── app.py                            # Ana Streamlit uygulama dosyası
-│   └── Moviebot.ipynb                    # Geliştirme ve test not defteri (Notebook)
-├── data/
-│   ├── IMDb_Top_1000_Movies_Dataset.csv  # Film veri seti (Kaynak)
-│   └── intent_classification_data.csv    # Niyet sınıflandırma modeli eğitim verisi
-├── intent_classification_model/
-│   ├── intent_model.pkl                  # Eğitilmiş niyet sınıflandırma modeli
-│   └── train_classifier.py               # Modeli yeniden eğitmek için kullanılan script
-├── .env                                  # API anahtarları (Gizli dosya)
-├── .gitignore                            # Git tarafından göz ardı edilecek dosyalar
-├── README.md                             # Proje dokümantasyonu
-└── requirements.txt                      # Gerekli kütüphaneler
-
-## 🛠️ Kurulum
-
-Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
-
-1. Repoyu klonla:
+1. Clone the repository:
 ```bash
 git clone https://github.com/nihalm-collab/gemini-basic-example.git
 cd moviebot
 ```
-2. Miniconda veya Anaconda kurulu ise, proje için yeni bir sanal ortam oluşturun:
 
-```bash
-# Python 3.10 tabanlı yeni bir ortam oluştur
-conda create --name rag_env python=3.10
-
-# Ortamı aktive et
-conda activate tag_env
-```
-
-3. Gerekli paketleri yükle:
-
+2. Install required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. `.env` dosyası oluştur ve API key'ini ekle:
+3. Create a `.env` file in the project root:
 ```
 GOOGLE_API_KEY=your_google_api_key_here
 ```
 
-5. `IMDB_Top_1000_Movies_Dataset.csv` veri setinin proje dizi içerisinde olduğundan emin ol.
+4. Ensure you have the dataset file `IMDB_Top_1000_Movies_Dataset.csv` in the project directory.
 
-## Kullanım
+## Usage
 
-1. Streamlit'le çalıştır
+1. Start the Streamlit app:
 ```bash
-streamlit run app/app.py
+streamlit run app.py
 ```
 
-2. Tarayıcı açılır (`http://localhost:8501`)
+2. Open your browser (usually at `http://localhost:8501`)
 
-3. İstersen selamlaş, vedalaş veya filmler ile ilgili sorularını gir:
+3. Enter your movie-related questions in the text input, such as:
    - "Recommend me some action movies?"
-   - "What is the plot of Titanic?"
+   - "What are the highest-rated sci-fi movies?"
    - "Show me comedy movies starring Meryl Streep"
-   - "What is the cast of Schindeler's List?"
+   - "What are some good Christopher Nolan movies?"
 
-## 🧠 Model Eğitimi (Opsiyonel)
-Eğer niyet sınıflandırma modelini güncellemek veya yeni verilerle tekrar eğitmek isterseniz:
+## How It Works
 
-1. data/intent_classification_data.csv dosyasını güncelleyin.
+1. **Data Loading**: The app loads the IMDB dataset using LangChain's CSVLoader
+2. **Text Splitting**: Documents are split into 1000-character chunks for efficient processing
+3. **Embeddings**: Text chunks are converted to vectors using Google's text-embedding-004 model
+4. **Vector Storage**: Embeddings are stored in ChromaDB for fast similarity search
+5. **Retrieval**: When you ask a question, the system retrieves the 10 most relevant movie entries
+6. **Generation**: Gemini 2.5 Flash Lite generates a natural response based on retrieved context
 
-2. Ana dizinde şu komutu çalıştırın:
+## Configuration
 
-```bash
-python intent_classification_model/train_classifier.py
-```
+You can customize the following parameters in the code:
 
-## 🛠️ Kullanılan Teknolojiler
+- `chunk_size`: Size of text chunks (default: 1000)
+- `chunk_overlap`: Overlap between chunks (default: 0)
+- `k`: Number of documents to retrieve (default: 5)
+- `temperature`: Model creativity (default: 0.3)
+- `max_tokens`: Maximum response length (default: 500)
 
-- Python 3.10
+## Dataset
 
-- Streamlit (Arayüz)
+The app expects a CSV file named `IMDB_Top_1000_Movies_Dataset.csv` with movie information including:
+- Movie titles
+- Movie description
+- Movie certificate
+- Genres
+- Movie cast
+- Other relevant metadata
 
-- LangChain (RAG Orkestrasyonu)
+## Limitations
 
-- Google Gemini API (LLM & Embeddings)
+- Recommendations are limited to movies in the IMDB Top 1000 dataset
+- Requires an active internet connection for Google API calls
+- Response quality depends on the dataset structure and completeness
 
-- ChromaDB (Vektör Veritabanı)
+## Troubleshooting
 
-- Scikit-Learn (Niyet Sınıflandırma)
+**Error: "Could not find GOOGLE_API_KEY"**
+- Make sure you have a `.env` file with your Google API key
 
-- Miniconda (Ortam Yönetimi)
+**Error: "File not found"**
+- Ensure `IMDB_Top_1000_Movies_Dataset.csv` is in the same directory as the script
 
+**Slow performance**
+- Vector store is rebuilt on every run. Consider implementing persistence for production use
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Contact
+
+For questions or suggestions, please open an issue on GitHub.

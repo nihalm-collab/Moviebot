@@ -1,0 +1,999 @@
+intent,text
+MOVIE_QUERY,What year was Titanic released??
+MOVIE_QUERY,Please show me leonardo dicaprio films
+MOVIE_QUERY,Can you suggest some animation films?
+MOVIE_QUERY,I want to know give me some horror movie suggestions
+MOVIE_QUERY,Tell me what's the plot of interstellar?
+MOVIE_QUERY,Can you how long is the lord of the rings??
+MOVIE_QUERY,What are the best war movies??
+MOVIE_QUERY,Tell me what are some good horror movies?
+CHITCHAT,Quick question: are you a robot?
+GREETING,Hi
+REJECT,Forget it!
+GREETING,Good to see you there
+MOVIE_QUERY,Can you can you recommend a comedy??
+OTHER,What's the stock market?
+CHITCHAT,"Hey, are you human?"
+CHITCHAT,Quick question: are you intelligent?
+GOODBYE,"Alright, gotta go"
+CHITCHAT,Quick question: what's the weather like?
+REJECT,"I'll pass, that's not right"
+GOODBYE,"Have a good day, that was helpful"
+MOVIE_QUERY,What's a good family movie?
+GREETING,Hello there there
+GOODBYE,Until we meet again!
+MOVIE_QUERY,Is The Shawshank Redemption good?
+GOODBYE,Alright bye!!
+GOODBYE,Sleep well!
+GREETING,"Hi assistant, can you help me?"
+OTHER,What's the weather in Paris?
+CHITCHAT,I'm bored?
+CHITCHAT,Tell me about yourself
+GOODBYE,Until next time!
+GREETING,"Ni hao, can you help me?"
+MOVIE_QUERY,Tell me recommend me a movie
+MOVIE_QUERY,Please show me romantic comedies
+GOODBYE,"See ya, thanks for your help"
+GREETING,Hey chatbot
+MOVIE_QUERY,Tell me give me thriller recommendations
+MOVIE_QUERY,Tell me can you recommend a comedy?
+CHITCHAT,Quick question: how's the weather?
+GREETING,Welcome!!
+GOODBYE,"Thanks, peace out"
+GREETING,"Heya, how are you?"
+GOODBYE,"Cya, thanks for your help"
+OTHER,How to play guitar?
+GOODBYE,"Bye bye, that was helpful"
+GOODBYE,"Alright, sleep well"
+CHITCHAT,"Hey, how are you?"
+MOVIE_QUERY,Tell me what's a good family movie?
+MOVIE_QUERY,I want to know show me classic movies
+REJECT,"Skip that, that's not right"
+MOVIE_QUERY,Can you recommend a comedy?
+CHITCHAT,Can you think??
+GOODBYE,Good night
+MOVIE_QUERY,What's the plot of Interstellar?
+GREETING,Morning!
+GREETING,Konnichiwa there
+MOVIE_QUERY,Suggest some old movies?
+GREETING,What's up!!
+GOODBYE,Have a great day
+REJECT,"Stop, try again"
+GOODBYE,I have to go!
+GREETING,"Bonjour, how are you?"
+MOVIE_QUERY,Please what are the highest rated movies?
+GOODBYE,Take care!
+MOVIE_QUERY,Please what are the highest rated movies?
+MOVIE_QUERY,I want to know tell me about the dark knight
+MOVIE_QUERY,Tell me what are the top rated dramas?
+CHITCHAT,Are you intelligent??
+GREETING,"Hey man, can you help me?"
+MOVIE_QUERY,Tell me recommend a romantic movie
+GREETING,Evening!!
+MOVIE_QUERY,I want to know list comedy films
+MOVIE_QUERY,Please what are good 2000s movies?
+MOVIE_QUERY,Tell me is the shawshank redemption good?
+GOODBYE,Sweet dreams
+GOODBYE,"Alright, au revoir"
+MOVIE_QUERY,Tell me show me action movies
+GREETING,Yo
+MOVIE_QUERY,Please give me some horror movie suggestions
+GOODBYE,"Alright, talk to you later"
+MOVIE_QUERY,I want to know what are critically acclaimed films?
+GREETING,"Good to see you, can you help me?"
+GOODBYE,"See ya, that was helpful"
+GREETING,Greetings human!!
+GOODBYE,"Alright, ok bye"
+MOVIE_QUERY,What did Christopher Nolan direct??
+OTHER,Tell me about politics
+MOVIE_QUERY,Tell me what are some good drama films?
+REJECT,Absolutely not!
+GOODBYE,"Have a good day, thanks for your help"
+GOODBYE,"Thanks, goodbye"
+MOVIE_QUERY,I want to know what are the best movies from the 90s?
+MOVIE_QUERY,Please what's the rating of inception?
+GOODBYE,"Farewell, that was helpful"
+REJECT,Not really!
+MOVIE_QUERY,Tell me i need a movie for tonight
+REJECT,"Next, that's not right"
+GREETING,Hey man!!
+GREETING,Good day
+REJECT,I disagree
+MOVIE_QUERY,Please what's the imdb rating of forrest gump?
+GOODBYE,Bye!!
+CHITCHAT,How are you??
+GOODBYE,"Ok bye, thanks for your help"
+MOVIE_QUERY,I want to know recommend me a movie
+MOVIE_QUERY,Show me classic movies?
+MOVIE_QUERY,What's the IMDB rating of Forrest Gump??
+OTHER,What is cryptocurrency?
+GREETING,Hey man!
+CHITCHAT,What can you do?
+MOVIE_QUERY,Tell me what are some good horror movies?
+REJECT,Negative!
+OTHER,How to learn programming?
+REJECT,No thank you
+GREETING,"Nice to meet you, can you help me?"
+MOVIE_QUERY,Please what are good mystery films?
+GREETING,Oh hi assistant
+OTHER,Tell me about history
+MOVIE_QUERY,I want to know who directed the godfather?
+GOODBYE,Until next time!!
+CHITCHAT,I'm tired
+MOVIE_QUERY,What are Brad Pitt's best movies?
+MOVIE_QUERY,Suggest some animated films
+GOODBYE,"Later, that was helpful"
+GOODBYE,See ya!
+MOVIE_QUERY,Please what's a good family movie?
+MOVIE_QUERY,What's the plot of Interstellar?
+MOVIE_QUERY,Tell me what are brad pitt's best movies?
+CHITCHAT,How are you doing??
+REJECT,"Cancel that, I mean something else"
+MOVIE_QUERY,Suggest some old movies?
+REJECT,Not good!
+GOODBYE,Sleep well
+OTHER,How to improve memory?
+MOVIE_QUERY,I want to know tell me about the dark knight
+GREETING,"Hi there, can you help me?"
+GREETING,Hello bot
+GOODBYE,Gotta go!!
+GREETING,Heya!!
+GREETING,Good evening
+GREETING,Hi bot there
+GOODBYE,"Alright, adios"
+MOVIE_QUERY,Tell me what are the highest rated movies?
+GOODBYE,"Take care, thanks for your help"
+CHITCHAT,"Hey, what day is it?"
+CHITCHAT,Quick question: what are your capabilities?
+REJECT,"Skip, I mean something else"
+GOODBYE,"Thanks, bye bye"
+REJECT,That's incorrect!
+GOODBYE,Talk to you later!!
+MOVIE_QUERY,Tell me give me some horror movie suggestions
+GREETING,Top of the morning there
+OTHER,Tell me about politics
+MOVIE_QUERY,Give me thriller recommendations
+CHITCHAT,Quick question: what are your capabilities?
+MOVIE_QUERY,Recommend sci-fi films?
+GOODBYE,"Thanks, adios"
+MOVIE_QUERY,Recommend a romantic movie?
+GREETING,"Hey chatbot, can you help me?"
+CHITCHAT,"Hey, i'm tired"
+MOVIE_QUERY,Please list some crime movies
+REJECT,"I'll pass, try again"
+MOVIE_QUERY,Can you list some crime movies?
+MOVIE_QUERY,Tell me is the shawshank redemption good?
+CHITCHAT,Are you human?
+MOVIE_QUERY,What are the highest rated movies??
+GOODBYE,Talk to you later
+MOVIE_QUERY,I want to watch a thriller
+GOODBYE,Later!!
+GOODBYE,Have a great day!!
+GOODBYE,Ok au revoir
+MOVIE_QUERY,Can you what genre is fight club??
+GREETING,Hello AI
+OTHER,Explain quantum physics
+MOVIE_QUERY,I want to know how long is the lord of the rings?
+GOODBYE,Until next time!
+GOODBYE,"Thanks, alright bye"
+GOODBYE,I have to go!!
+REJECT,Not good
+MOVIE_QUERY,Tell me i'm looking for movie recommendations
+MOVIE_QUERY,What are Brad Pitt's best movies?
+MOVIE_QUERY,Tell me what are brad pitt's best movies?
+GOODBYE,Ok see ya
+MOVIE_QUERY,Show me classic movies?
+REJECT,"Not really, that's not right"
+GREETING,Hi dude there
+GOODBYE,"Alright bye, that was helpful"
+GOODBYE,"Have a good day, thanks for your help"
+CHITCHAT,What's your favorite movie??
+MOVIE_QUERY,Recommend recent films
+CHITCHAT,What time is it??
+REJECT,Wrong!
+MOVIE_QUERY,I want to know can you recommend a comedy?
+GREETING,Hey there
+GOODBYE,Adios!
+MOVIE_QUERY,What are good 2000s movies??
+GOODBYE,Talk to you later
+GOODBYE,"Thanks, see you later"
+MOVIE_QUERY,Show me movies with rating above 8
+GREETING,"Hi, how are you?"
+GREETING,"Namaste, how are you?"
+MOVIE_QUERY,Please what's a good movie to watch?
+MOVIE_QUERY,I want to know tell me about the dark knight
+MOVIE_QUERY,Tell me what genre is fight club?
+REJECT,"Next, try again"
+MOVIE_QUERY,What are some good drama films??
+GREETING,Good morning!!
+CHITCHAT,"Hey, who are you?"
+MOVIE_QUERY,I want to know what are some good drama films?
+REJECT,"Nevermind, try again"
+GREETING,Hiya!!
+GREETING,"Yo, can you help me?"
+CHITCHAT,Quick question: what are you?
+REJECT,"Cancel that, I mean something else"
+MOVIE_QUERY,Show me movies with rating above 8?
+GOODBYE,I have to go!
+MOVIE_QUERY,Can you what year was titanic released??
+GOODBYE,"Ok bye, thanks for your help"
+CHITCHAT,Quick question: how are you?
+MOVIE_QUERY,Tell me recommend movies with morgan freeman
+GOODBYE,"Thanks, ttyl"
+MOVIE_QUERY,Please what are the latest blockbusters?
+OTHER,Tell me about space
+GREETING,Hi bot
+CHITCHAT,What day is it??
+GREETING,Hello bot!!
+MOVIE_QUERY,Show me action movies?
+GOODBYE,Ok until we meet again
+CHITCHAT,Are you a robot??
+MOVIE_QUERY,I want to know how long is the lord of the rings?
+GOODBYE,"Thanks, bye"
+OTHER,How to learn languages?
+MOVIE_QUERY,Tell me what's a good movie to watch?
+MOVIE_QUERY,Can you what genre is fight club??
+GREETING,How do you do
+GREETING,Hello!!
+GOODBYE,"Thanks, catch you later"
+OTHER,Tell me about politics
+GREETING,Yo there
+GOODBYE,"Catch you later, thanks for your help"
+GREETING,Hi!!
+GOODBYE,"Thanks, bye"
+MOVIE_QUERY,Please what are critically acclaimed films?
+REJECT,No thanks
+GOODBYE,"Until we meet again, thanks for your help"
+GREETING,Hey you
+MOVIE_QUERY,Please recommend me a movie
+GREETING,Hey there there
+GREETING,Good to see you
+GOODBYE,Ok adios
+GREETING,Hello friend!!
+OTHER,How to learn languages?
+REJECT,"No way, I mean something else"
+CHITCHAT,How's your day??
+GOODBYE,Ok bye
+GOODBYE,"Goodbye, thanks for your help"
+MOVIE_QUERY,Suggest some animated films?
+CHITCHAT,Are you a robot??
+CHITCHAT,What are you??
+GREETING,Hey there
+MOVIE_QUERY,Can you who directed the godfather??
+MOVIE_QUERY,Can you what are the highest rated movies??
+GREETING,"Hey chatbot, how are you?"
+GOODBYE,"I have to go, thanks for your help"
+GOODBYE,Goodbye!
+CHITCHAT,"Hey, are you a robot?"
+REJECT,"Don't want it, try again"
+GOODBYE,"Alright, farewell"
+MOVIE_QUERY,Please who directed the godfather?
+GOODBYE,Ok bye
+MOVIE_QUERY,Recommend movies with Morgan Freeman?
+GREETING,How do you do
+CHITCHAT,Are you a robot?
+GOODBYE,Ok sleep well
+MOVIE_QUERY,What's a good movie to watch??
+GREETING,"Hey man, how are you?"
+GREETING,"Hey there, I need help"
+MOVIE_QUERY,Can you recommend a romantic movie?
+GREETING,"Hi bot, I need help"
+REJECT,"Not really, I mean something else"
+MOVIE_QUERY,What movies has Tom Hanks been in?
+REJECT,Wrong
+GOODBYE,"I have to go, thanks for your help"
+GOODBYE,Sweet dreams!
+GOODBYE,Ok adios
+MOVIE_QUERY,Please what genre is fight club?
+GOODBYE,"Ciao, thanks for your help"
+MOVIE_QUERY,Please show me action movies
+GOODBYE,"Thanks, good night"
+OTHER,Explain quantum physics
+CHITCHAT,"Hey, can you think?"
+REJECT,"I'm not interested, I mean something else"
+MOVIE_QUERY,Tell me what are critically acclaimed films?
+MOVIE_QUERY,Tell me about The Dark Knight?
+GOODBYE,Peace out!
+MOVIE_QUERY,Please what are the best war movies?
+CHITCHAT,"Hey, where are you from?"
+MOVIE_QUERY,Give me some horror movie suggestions?
+GREETING,Namaste!
+GREETING,Good afternoon!
+MOVIE_QUERY,I want to know what are some good horror movies?
+MOVIE_QUERY,I want to know recommend movies with morgan freeman
+MOVIE_QUERY,I want to know what are the best war movies?
+MOVIE_QUERY,What are the latest blockbusters?
+REJECT,"That's incorrect, I mean something else"
+CHITCHAT,How's it going?
+GOODBYE,Bye bye!
+MOVIE_QUERY,Please i want to watch a thriller
+CHITCHAT,Are you a robot?
+MOVIE_QUERY,Tell me i want to watch a thriller
+MOVIE_QUERY,Please what's the rating of inception?
+MOVIE_QUERY,Tell me what are brad pitt's best movies?
+MOVIE_QUERY,Can you what are the best sci-fi movies??
+MOVIE_QUERY,Please i need a movie for tonight
+MOVIE_QUERY,Tell me what are good 2000s movies?
+MOVIE_QUERY,I want to know what's the rating of inception?
+GOODBYE,See you later!!
+GOODBYE,"Alright, ok bye"
+MOVIE_QUERY,Can you what are the highest rated movies??
+GOODBYE,Bye
+GREETING,"Hey, how are you?"
+GREETING,Ni hao!!
+GOODBYE,"Alright, see you later"
+MOVIE_QUERY,I need a movie for tonight?
+REJECT,"Cancel, that's not right"
+GOODBYE,Until next time!
+MOVIE_QUERY,I want to know recommend movies with morgan freeman
+MOVIE_QUERY,Please what are the best sci-fi movies?
+GREETING,Hello there
+MOVIE_QUERY,What are good 2000s movies??
+GOODBYE,Until we meet again!
+MOVIE_QUERY,I want to know what are good 2000s movies?
+MOVIE_QUERY,Can you give me thriller recommendations?
+GREETING,"Hiya, can you help me?"
+GOODBYE,"Thanks, take care"
+MOVIE_QUERY,Please what did christopher nolan direct?
+MOVIE_QUERY,Can you what year was titanic released??
+CHITCHAT,"Hey, how's it going?"
+MOVIE_QUERY,What are some good drama films??
+MOVIE_QUERY,Please i need a movie for tonight
+MOVIE_QUERY,Tell me what's a good movie to watch?
+GREETING,Hey man
+GREETING,Salutations!!
+GOODBYE,"Alright, bye"
+MOVIE_QUERY,Tell me who directed the godfather?
+MOVIE_QUERY,What are the top rated dramas?
+CHITCHAT,Are you human?
+GREETING,Howdy!!
+CHITCHAT,Quick question: how old are you?
+GREETING,Oh hola
+GOODBYE,Ciao
+CHITCHAT,How's the weather??
+GREETING,"Aloha, I need help"
+GOODBYE,Cya!!
+GREETING,Hey man
+GOODBYE,"Alright, ciao"
+MOVIE_QUERY,Can you what's a good movie to watch??
+GOODBYE,Ok farewell
+GREETING,Hello AI!!
+MOVIE_QUERY,What's a good family movie??
+MOVIE_QUERY,I want to know what year was titanic released?
+GREETING,Welcome there
+MOVIE_QUERY,Please is the shawshank redemption good?
+GREETING,Hey buddy!
+GREETING,"Hey there, can you help me?"
+REJECT,"I'll pass, try again"
+GREETING,Aloha!
+GOODBYE,Ok take care
+CHITCHAT,"Hey, who are you?"
+GREETING,Oh hello
+MOVIE_QUERY,Tell me recommend sci-fi films
+GREETING,Good to see you!!
+GREETING,Good evening
+GREETING,Good afternoon there
+MOVIE_QUERY,I want to know what are the best sci-fi movies?
+MOVIE_QUERY,I want to know what's a good movie to watch?
+GREETING,"Hey there, I need help"
+CHITCHAT,What are your capabilities?
+REJECT,"Forget it, that's not right"
+GOODBYE,Have a great day!
+GREETING,Hola there
+REJECT,"I changed my mind, try again"
+GOODBYE,Ok until we meet again
+GOODBYE,TTYL!!
+CHITCHAT,What's up??
+GREETING,"Hey chatbot, how are you?"
+OTHER,How to learn languages?
+REJECT,Skip that
+GREETING,Ni hao there
+GREETING,Greetings human!!
+MOVIE_QUERY,Show me romantic comedies
+GREETING,"Howdy, can you help me?"
+MOVIE_QUERY,Tell me list some crime movies
+GREETING,Hey man
+MOVIE_QUERY,I want to know suggest me an action movie
+MOVIE_QUERY,Please what are some good horror movies?
+REJECT,That's incorrect!
+OTHER,What's the best smartphone?
+GREETING,Oh aloha
+MOVIE_QUERY,Give me some horror movie suggestions
+MOVIE_QUERY,Tell me what genre is fight club?
+MOVIE_QUERY,Recommend recent films
+MOVIE_QUERY,Please show me leonardo dicaprio films
+MOVIE_QUERY,Please show me classic movies
+CHITCHAT,Quick question: do you like movies?
+GOODBYE,"Sweet dreams, thanks for your help"
+GREETING,Oh hi bot
+MOVIE_QUERY,What are the top rated dramas?
+MOVIE_QUERY,What genre is Fight Club?
+CHITCHAT,Quick question: tell me a joke
+REJECT,"Cancel that, I mean something else"
+GOODBYE,"Goodbye, that was helpful"
+REJECT,That's not what I want!
+MOVIE_QUERY,Can you suggest a good film?
+MOVIE_QUERY,I want to know what are good mystery films?
+REJECT,"No, that's not right"
+MOVIE_QUERY,Please what's the rating of inception?
+MOVIE_QUERY,Show me movies with rating above 8
+GREETING,Aloha there
+MOVIE_QUERY,Please what are the best movies from the 90s?
+MOVIE_QUERY,I want to know suggest some animated films
+MOVIE_QUERY,What are the best war movies??
+MOVIE_QUERY,Show me movies with rating above 8
+GOODBYE,"Thanks, farewell"
+GREETING,"Hi, can you help me?"
+GREETING,Hiya
+MOVIE_QUERY,Can you recommend recent films?
+GOODBYE,"Have a great day, that was helpful"
+GOODBYE,Ok ok bye
+GOODBYE,Bye bye!
+GOODBYE,Bye!!
+MOVIE_QUERY,Please recommend movies with morgan freeman
+GOODBYE,"Bye for now, thanks for your help"
+GREETING,Hi there
+GREETING,Hey buddy!!
+GOODBYE,I have to go!
+CHITCHAT,Say something funny?
+MOVIE_QUERY,Can you recommend a romantic movie?
+GOODBYE,"Until we meet again, thanks for your help"
+MOVIE_QUERY,Can you tell me about the dark knight?
+OTHER,What is blockchain?
+MOVIE_QUERY,Tell me recommend me a movie
+MOVIE_QUERY,Is The Shawshank Redemption good??
+MOVIE_QUERY,Can you how long is the lord of the rings??
+MOVIE_QUERY,I want to know i want to watch a thriller
+GREETING,Greetings human
+MOVIE_QUERY,Tell me how long is the lord of the rings?
+MOVIE_QUERY,Please recommend a romantic movie
+MOVIE_QUERY,Is The Shawshank Redemption good?
+CHITCHAT,"Hey, what time is it?"
+GOODBYE,"Thanks, peace out"
+GREETING,"Top of the morning, how are you?"
+GOODBYE,Sweet dreams!
+MOVIE_QUERY,I want to know list comedy films
+CHITCHAT,Quick question: what's the weather like?
+MOVIE_QUERY,Show me movies with rating above 8?
+GOODBYE,Adios
+MOVIE_QUERY,Please recommend recent films
+GREETING,Oh hey there
+GREETING,Hey buddy!!
+MOVIE_QUERY,Can you can you recommend a comedy??
+OTHER,How to learn languages?
+GOODBYE,"Sayonara, thanks for your help"
+GREETING,"Evening, how are you?"
+GREETING,"Hey chatbot, can you help me?"
+MOVIE_QUERY,Give me thriller recommendations
+MOVIE_QUERY,Recommend movies with Morgan Freeman
+MOVIE_QUERY,I want to know which movies have perfect scores?
+MOVIE_QUERY,Please what's a good family movie?
+GREETING,Hey man
+CHITCHAT,Quick question: tell me about yourself
+GREETING,Hi there
+GOODBYE,Sayonara!
+OTHER,How to lose weight?
+CHITCHAT,What's your name?
+CHITCHAT,Quick question: tell me about yourself
+MOVIE_QUERY,Please tell me about the dark knight
+MOVIE_QUERY,Tell me about The Dark Knight?
+MOVIE_QUERY,Please what are the best movies from the 90s?
+GREETING,"Hi bot, how are you?"
+GREETING,Howdy!!
+GOODBYE,Ok cya
+MOVIE_QUERY,Tell me i need a movie for tonight
+GREETING,"Hey you, how are you?"
+GREETING,Good afternoon there
+GOODBYE,Cya!
+GREETING,"Hello, can you help me?"
+MOVIE_QUERY,Can you recommend a comedy??
+CHITCHAT,"Hey, what are you?"
+MOVIE_QUERY,I want to know what's the plot of interstellar?
+REJECT,"Never mind, try again"
+GREETING,"Good evening, can you help me?"
+MOVIE_QUERY,Can you show me classic movies?
+GREETING,"Hi, I need help"
+MOVIE_QUERY,Recommend movies with Morgan Freeman
+MOVIE_QUERY,Tell me tell me about the dark knight
+CHITCHAT,Are you a robot??
+CHITCHAT,Quick question: how old are you?
+MOVIE_QUERY,Please what's the rating of inception?
+GREETING,Oh hey
+GOODBYE,"Alright, cya"
+CHITCHAT,Where are you from??
+REJECT,"Never mind, I mean something else"
+OTHER,How to improve memory?
+MOVIE_QUERY,Can you i'm looking for movie recommendations?
+GOODBYE,Ok have a good day
+OTHER,Explain machine learning
+REJECT,"Skip that, try again"
+GOODBYE,"Alright, gotta go"
+MOVIE_QUERY,Please suggest some old movies
+GOODBYE,"Thanks, take care"
+GREETING,Good evening
+GOODBYE,"Thanks, ttyl"
+REJECT,Forget it!
+GOODBYE,Talk to you later!!
+GREETING,Hey buddy!!
+OTHER,What is love?
+GREETING,Oh ni hao
+GOODBYE,"Thanks, have a good day"
+MOVIE_QUERY,Tell me what's a good family movie?
+CHITCHAT,"Hey, what's your favorite movie?"
+GOODBYE,Ok i have to go
+MOVIE_QUERY,I want to know what are the top 10 movies?
+MOVIE_QUERY,Is The Shawshank Redemption good??
+REJECT,I disagree!
+GOODBYE,"Sweet dreams, that was helpful"
+MOVIE_QUERY,Recommend movies with Morgan Freeman?
+GREETING,Good day
+MOVIE_QUERY,What's the IMDB rating of Forrest Gump?
+GREETING,Hola!!
+MOVIE_QUERY,Can you what genre is fight club??
+GOODBYE,Ok ttyl
+REJECT,I don't like it
+MOVIE_QUERY,Tell me what's a good family movie?
+GREETING,Hiya there
+GREETING,"Hey chatbot, can you help me?"
+MOVIE_QUERY,I want to know show me action movies
+MOVIE_QUERY,Tell me suggest me an action movie
+GREETING,Hey you!!
+GOODBYE,Good night!!
+GOODBYE,I need to leave!!
+MOVIE_QUERY,Please is the shawshank redemption good?
+GREETING,"Hi, how are you?"
+CHITCHAT,How are you?
+MOVIE_QUERY,I want to know what are good mystery films?
+REJECT,Not good!
+MOVIE_QUERY,What year was Titanic released??
+GREETING,Oh nice to meet you
+GREETING,Oh hello there
+MOVIE_QUERY,What should I watch this weekend?
+MOVIE_QUERY,I want to know what are the best war movies?
+GREETING,Hey there there
+CHITCHAT,I'm bored
+CHITCHAT,Who are you?
+GOODBYE,Later!!
+GOODBYE,Bye bye!
+GREETING,Wassup!
+GOODBYE,"Until we meet again, thanks for your help"
+GREETING,Yo
+OTHER,Explain machine learning
+REJECT,Don't want it
+MOVIE_QUERY,I want to know what are brad pitt's best movies?
+GOODBYE,Good night!
+MOVIE_QUERY,I want to know i want to watch a thriller
+MOVIE_QUERY,Recommend sci-fi films?
+GOODBYE,Sweet dreams!
+GOODBYE,Ok farewell
+OTHER,What's the stock market?
+GREETING,Hi bot there
+GREETING,Hey you
+REJECT,"Next, try again"
+GREETING,Hi friend!!
+GOODBYE,"Alright, have a good day"
+CHITCHAT,How's the weather?
+GREETING,"Morning, how are you?"
+MOVIE_QUERY,Can you what movies has tom hanks been in??
+GOODBYE,Ciao!
+MOVIE_QUERY,Give me some horror movie suggestions
+GOODBYE,Bye for now!!
+GREETING,Oh hello bot
+REJECT,"Cancel that, that's not right"
+REJECT,Negative
+REJECT,"Skip, I mean something else"
+MOVIE_QUERY,What are the best war movies?
+MOVIE_QUERY,Tell me recommend a romantic movie
+MOVIE_QUERY,Tell me about The Dark Knight?
+GREETING,Good evening
+GREETING,"Namaste, can you help me?"
+GOODBYE,Cya
+REJECT,Nevermind
+MOVIE_QUERY,Can you recommend movies with morgan freeman?
+REJECT,"No thank you, try again"
+CHITCHAT,"Hey, what time is it?"
+GREETING,Hey chatbot!!
+GOODBYE,"Thanks, ttyl"
+MOVIE_QUERY,Can you what are the best sci-fi movies??
+MOVIE_QUERY,I want to know what are good 2000s movies?
+MOVIE_QUERY,Is The Shawshank Redemption good?
+GREETING,Oh hello ai
+GREETING,Good day!!
+GOODBYE,"Alright, see ya"
+GOODBYE,Sayonara!
+MOVIE_QUERY,I want to know what are the latest blockbusters?
+OTHER,What's the best smartphone?
+GREETING,Konnichiwa there
+GREETING,Salutations!
+MOVIE_QUERY,Tell me what's the imdb rating of forrest gump?
+MOVIE_QUERY,Please recommend me a movie
+GREETING,Hello AI
+GOODBYE,"Thanks, ttyl"
+REJECT,"Next, I mean something else"
+MOVIE_QUERY,Show me movies with rating above 8?
+MOVIE_QUERY,Tell me give me thriller recommendations
+MOVIE_QUERY,Tell me what are good mystery films?
+OTHER,How do I cook pasta?
+MOVIE_QUERY,What's the rating of Inception?
+OTHER,What's the stock market?
+GREETING,Hi bot!!
+CHITCHAT,Do you have feelings?
+GREETING,Hi there!!
+CHITCHAT,Quick question: what can you do?
+GREETING,Hello there there
+GREETING,"Hola, can you help me?"
+MOVIE_QUERY,Recommend a romantic movie
+GREETING,Hey you!!
+OTHER,What's the stock market?
+CHITCHAT,Quick question: how old are you?
+MOVIE_QUERY,Can you list some crime movies?
+OTHER,Explain quantum physics
+MOVIE_QUERY,Tell me i want to watch a thriller
+GOODBYE,Have a great day!
+MOVIE_QUERY,I want to know what are brad pitt's best movies?
+CHITCHAT,What time is it??
+GOODBYE,"Goodbye, that was helpful"
+GREETING,"Namaste, I need help"
+OTHER,What is cryptocurrency?
+MOVIE_QUERY,Tell me what are the top 10 movies?
+OTHER,What's the capital of France?
+GOODBYE,"Thanks, ciao"
+GOODBYE,Sweet dreams!!
+GREETING,"Good afternoon, I need help"
+OTHER,What's the stock market?
+GOODBYE,"Thanks bye, thanks for your help"
+MOVIE_QUERY,Please is the shawshank redemption good?
+OTHER,How does a computer work?
+CHITCHAT,I'm happy
+MOVIE_QUERY,I want to know what should i watch this weekend?
+REJECT,"I changed my mind, that's not right"
+GREETING,Good evening
+CHITCHAT,"Hey, what are your capabilities?"
+CHITCHAT,Quick question: say something funny
+MOVIE_QUERY,Please who directed the godfather?
+OTHER,Tell me about cars
+REJECT,No way
+MOVIE_QUERY,Tell me what are the best movies from the 90s?
+OTHER,Explain quantum physics
+GREETING,"Hi assistant, how are you?"
+CHITCHAT,What's your name??
+GREETING,Ciao!
+REJECT,Skip that
+OTHER,How does internet work?
+REJECT,"I disagree, that's not right"
+GREETING,"Hi assistant, can you help me?"
+GOODBYE,Ok have a good day
+MOVIE_QUERY,Please what did christopher nolan direct?
+GREETING,"Evening, I need help"
+MOVIE_QUERY,Please show me leonardo dicaprio films
+MOVIE_QUERY,Recommend me a movie
+REJECT,Forget it
+MOVIE_QUERY,Can you what are some good horror movies??
+REJECT,That's wrong!
+MOVIE_QUERY,I want to know show me classic movies
+GREETING,Hola
+GREETING,"Greetings human, I need help"
+GREETING,Good evening!!
+MOVIE_QUERY,Recommend recent films
+CHITCHAT,Quick question: who are you?
+GOODBYE,"Have a great day, thanks for your help"
+MOVIE_QUERY,I want to know what are good 2000s movies?
+REJECT,Don't want it
+REJECT,"I don't need that, that's not right"
+GREETING,Good morning
+REJECT,"Nope, try again"
+GREETING,Hiya!!
+MOVIE_QUERY,Can you what genre is fight club??
+MOVIE_QUERY,Recommend me a movie?
+GOODBYE,Thanks bye
+GOODBYE,Sayonara
+MOVIE_QUERY,Can you what are the best war movies??
+MOVIE_QUERY,Please recommend me a movie
+MOVIE_QUERY,Recommend sci-fi films
+MOVIE_QUERY,Can you what's the plot of interstellar??
+CHITCHAT,"Hey, what are you?"
+GOODBYE,Catch you later!
+MOVIE_QUERY,List comedy films?
+GOODBYE,Ok peace out
+MOVIE_QUERY,Can you what genre is fight club??
+GREETING,Good afternoon!!
+REJECT,That's wrong
+MOVIE_QUERY,I want to know list some crime movies
+CHITCHAT,Are you human??
+MOVIE_QUERY,Please what are the top 10 movies?
+CHITCHAT,Quick question: how old are you?
+MOVIE_QUERY,Can you suggest some old movies?
+GREETING,Ni hao there
+GREETING,How do you do!!
+MOVIE_QUERY,What are good 2000s movies??
+CHITCHAT,"Hey, what's the weather like?"
+MOVIE_QUERY,I want to know list comedy films
+MOVIE_QUERY,I want to watch a thriller
+GOODBYE,Bye bye
+MOVIE_QUERY,Please can you recommend a comedy?
+GOODBYE,"Have a great day, thanks for your help"
+GREETING,"Aloha, I need help"
+GREETING,"Hi assistant, I need help"
+CHITCHAT,Quick question: do you like movies?
+MOVIE_QUERY,How long is The Lord of the Rings??
+GREETING,"Hello there, can you help me?"
+OTHER,Explain machine learning
+GREETING,"Hola, how are you?"
+MOVIE_QUERY,I want to know what's the imdb rating of forrest gump?
+GOODBYE,Goodbye!!
+GOODBYE,"Thanks, bye"
+MOVIE_QUERY,I need a movie for tonight
+GREETING,"Hey there, how are you?"
+GREETING,Good day!!
+GOODBYE,"I have to go, thanks for your help"
+MOVIE_QUERY,Is The Shawshank Redemption good??
+GOODBYE,"Alright, ciao"
+MOVIE_QUERY,Please what are good mystery films?
+CHITCHAT,Quick question: how old are you?
+REJECT,Cancel
+CHITCHAT,What are your capabilities?
+REJECT,"I changed my mind, try again"
+CHITCHAT,Are you intelligent??
+GREETING,Howdy!
+MOVIE_QUERY,What genre is Fight Club??
+MOVIE_QUERY,I want to know what's a good movie to watch?
+REJECT,"That's not what I want, I mean something else"
+REJECT,"Negative, I mean something else"
+MOVIE_QUERY,Please i'm looking for movie recommendations
+CHITCHAT,"Hey, how's it going?"
+GOODBYE,"Thanks, peace out"
+MOVIE_QUERY,Can you what should i watch this weekend??
+CHITCHAT,Quick question: what's up?
+REJECT,"Nope, try again"
+REJECT,"Not good, try again"
+CHITCHAT,I'm tired?
+MOVIE_QUERY,Tell me recommend sci-fi films
+CHITCHAT,Quick question: how are you?
+REJECT,"Move on, that's not right"
+GOODBYE,"Alright, ok bye"
+OTHER,What's the capital of France?
+MOVIE_QUERY,Please list comedy films
+GOODBYE,Until next time
+REJECT,"Wrong, I mean something else"
+MOVIE_QUERY,What's a good family movie?
+MOVIE_QUERY,How long is The Lord of the Rings??
+GREETING,"Yo, can you help me?"
+MOVIE_QUERY,What's a good family movie??
+GOODBYE,"Alright, until we meet again"
+CHITCHAT,What's the weather like??
+MOVIE_QUERY,I want to know i'm looking for movie recommendations
+MOVIE_QUERY,Tell me what are some good horror movies?
+GOODBYE,"TTYL, thanks for your help"
+OTHER,How to play guitar?
+REJECT,"Not good, try again"
+GOODBYE,Cya
+REJECT,Absolutely not
+MOVIE_QUERY,Tell me can you recommend a comedy?
+GOODBYE,Ok until next time
+MOVIE_QUERY,Please what are the top rated dramas?
+MOVIE_QUERY,Can you what's the plot of interstellar??
+CHITCHAT,Tell me about yourself
+MOVIE_QUERY,Tell me recommend a romantic movie
+GOODBYE,"Have a great day, that was helpful"
+GOODBYE,"Thanks, sleep well"
+MOVIE_QUERY,Tell me give me some horror movie suggestions
+MOVIE_QUERY,Give me thriller recommendations?
+MOVIE_QUERY,Please what are some good drama films?
+GOODBYE,Sweet dreams
+GOODBYE,Ok have a great day
+GOODBYE,"Alright, ttyl"
+GOODBYE,Ok au revoir
+OTHER,Tell me about politics
+REJECT,"That's incorrect, I mean something else"
+MOVIE_QUERY,I need a movie for tonight?
+GOODBYE,"See ya, that was helpful"
+MOVIE_QUERY,I want to know recommend me a movie
+MOVIE_QUERY,Please what are brad pitt's best movies?
+OTHER,How to learn programming?
+CHITCHAT,Quick question: i'm tired
+CHITCHAT,"Hey, what are your capabilities?"
+MOVIE_QUERY,Give me some horror movie suggestions?
+CHITCHAT,Quick question: do you like movies?
+REJECT,"No, that's not right"
+MOVIE_QUERY,What are the latest blockbusters??
+REJECT,"I'm not interested, I mean something else"
+MOVIE_QUERY,Please what are the highest rated movies?
+OTHER,How to learn languages?
+MOVIE_QUERY,Please show me leonardo dicaprio films
+REJECT,"Cancel, try again"
+GREETING,Ciao!
+GOODBYE,"Take care, that was helpful"
+MOVIE_QUERY,Please show me movies with rating above 8
+GREETING,Oh afternoon
+MOVIE_QUERY,What's a good movie to watch?
+GREETING,Hello there
+MOVIE_QUERY,What are some good drama films?
+GREETING,Hey you there
+MOVIE_QUERY,I want to watch a thriller?
+CHITCHAT,"Hey, i'm tired"
+CHITCHAT,Quick question: make me laugh
+REJECT,Don't want it!
+CHITCHAT,Quick question: what are you?
+MOVIE_QUERY,What are the best sci-fi movies??
+GREETING,Hey chatbot
+MOVIE_QUERY,Please what are good mystery films?
+GOODBYE,Cya
+MOVIE_QUERY,I want to know show me leonardo dicaprio films
+MOVIE_QUERY,Can you what are the highest rated movies??
+MOVIE_QUERY,Can you recommend a comedy?
+MOVIE_QUERY,Please what did christopher nolan direct?
+MOVIE_QUERY,I'm looking for movie recommendations
+CHITCHAT,Quick question: what can you do?
+GOODBYE,Bye for now!
+GOODBYE,"Have a good day, that was helpful"
+REJECT,No!
+GOODBYE,"I need to leave, thanks for your help"
+REJECT,I disagree
+REJECT,"No way, try again"
+GOODBYE,"Alright, cheers"
+GREETING,Oh greetings
+REJECT,"That's not what I want, try again"
+MOVIE_QUERY,Please recommend recent films
+CHITCHAT,Do you like movies??
+MOVIE_QUERY,What movies has Tom Hanks been in?
+MOVIE_QUERY,Tell me give me thriller recommendations
+MOVIE_QUERY,Show me action movies
+MOVIE_QUERY,I want to know what year was titanic released?
+MOVIE_QUERY,What movies has Tom Hanks been in??
+GREETING,Oh konnichiwa
+REJECT,"Absolutely not, that's not right"
+MOVIE_QUERY,Who directed The Godfather??
+MOVIE_QUERY,Recommend movies with Morgan Freeman?
+MOVIE_QUERY,Recommend recent films
+MOVIE_QUERY,I want to watch a thriller?
+GREETING,Hello there there
+GREETING,Konnichiwa there
+REJECT,"Cancel that, I mean something else"
+REJECT,"Never mind, try again"
+GOODBYE,Have a great day
+GREETING,Aloha!!
+GREETING,"Bonjour, can you help me?"
+CHITCHAT,"Hey, what can you do?"
+GOODBYE,Sleep well
+MOVIE_QUERY,Please what genre is fight club?
+REJECT,Move on
+GOODBYE,Talk to you later!!
+GOODBYE,Au revoir!
+MOVIE_QUERY,Can you suggest some old movies?
+MOVIE_QUERY,Please what's the rating of inception?
+GOODBYE,"Thanks, good night"
+MOVIE_QUERY,Tell me what are the best war movies?
+MOVIE_QUERY,What's the rating of Inception?
+GREETING,Bonjour!
+GREETING,How do you do
+MOVIE_QUERY,What did Christopher Nolan direct??
+MOVIE_QUERY,List some crime movies
+GREETING,"What's up, I need help"
+OTHER,Tell me about space
+MOVIE_QUERY,Please what did christopher nolan direct?
+REJECT,Skip that!
+OTHER,Explain quantum physics
+GREETING,"Hi assistant, can you help me?"
+REJECT,"Next, try again"
+GREETING,Bonjour!
+GREETING,Hey there there
+GREETING,Oh sup
+MOVIE_QUERY,Who stars in Pulp Fiction?
+GOODBYE,"Thanks, i need to leave"
+GREETING,"Hiya, I need help"
+REJECT,"Skip, try again"
+GOODBYE,Ok farewell
+REJECT,No thanks!
+GREETING,Hi!!
+CHITCHAT,Quick question: make me laugh
+GOODBYE,"Alright, ciao"
+MOVIE_QUERY,What are the best war movies??
+MOVIE_QUERY,I want to know who stars in pulp fiction?
+MOVIE_QUERY,Tell me what are the top 10 movies?
+GOODBYE,Ok take care
+MOVIE_QUERY,Tell me list comedy films
+GOODBYE,"Sayonara, thanks for your help"
+MOVIE_QUERY,Can you what are the best movies from the 90s??
+MOVIE_QUERY,Can you show me action movies?
+MOVIE_QUERY,Can you i need a movie for tonight?
+OTHER,What's the capital of France?
+REJECT,That's wrong!
+CHITCHAT,Are you intelligent?
+GOODBYE,Ok cheers
+GOODBYE,Ok bye
+GREETING,"Good morning, how are you?"
+MOVIE_QUERY,What movies has Tom Hanks been in??
+MOVIE_QUERY,Show me Leonardo DiCaprio films?
+MOVIE_QUERY,Tell me what are the highest rated movies?
+MOVIE_QUERY,I want to know what are the best war movies?
+MOVIE_QUERY,What are the highest rated movies??
+REJECT,"That's wrong, try again"
+REJECT,Cancel that
+GREETING,Hello bot there
+MOVIE_QUERY,I want to know recommend movies with morgan freeman
+GOODBYE,Gotta go!
+GREETING,Morning there
+CHITCHAT,"Hey, how are you doing?"
+OTHER,What's the capital of France?
+MOVIE_QUERY,Can you what are good 2000s movies??
+GREETING,Hi there!!
+GOODBYE,Have a great day
+GREETING,Pleased to meet you!!
+REJECT,"Not good, try again"
+MOVIE_QUERY,Tell me what are the top rated dramas?
+MOVIE_QUERY,List some crime movies?
+MOVIE_QUERY,Tell me can you suggest a good film?
+GOODBYE,Au revoir!!
+GREETING,Howdy!!
+GOODBYE,Until we meet again!
+CHITCHAT,Are you human??
+MOVIE_QUERY,Please give me thriller recommendations
+GOODBYE,"Farewell, that was helpful"
+REJECT,"Stop, try again"
+GOODBYE,"See you later, that was helpful"
+GREETING,Pleased to meet you!!
+GOODBYE,I have to go!!
+MOVIE_QUERY,Tell me what movies has tom hanks been in?
+GOODBYE,Sweet dreams!
+GOODBYE,Sleep well
+GREETING,Hi assistant!!
+REJECT,Stop!
+OTHER,Explain quantum physics
+MOVIE_QUERY,Can you what are critically acclaimed films??
+REJECT,"No thank you, that's not right"
+MOVIE_QUERY,I want to know is the shawshank redemption good?
+OTHER,Tell me about sports
+MOVIE_QUERY,Please what are the highest rated movies?
+REJECT,No thanks!
+GOODBYE,Ok have a good day
+MOVIE_QUERY,Can you what year was titanic released??
+CHITCHAT,Are you human??
+MOVIE_QUERY,Tell me is the shawshank redemption good?
+MOVIE_QUERY,Can you recommend sci-fi films?
+GREETING,"Hello AI, can you help me?"
+REJECT,I don't need that!
+MOVIE_QUERY,I want to know what did christopher nolan direct?
+MOVIE_QUERY,I want to know what are the best war movies?
+MOVIE_QUERY,Tell me about The Dark Knight?
+MOVIE_QUERY,Please what are the best sci-fi movies?
+GREETING,Bonjour there
+MOVIE_QUERY,Please what are the top rated dramas?
+MOVIE_QUERY,Can you what are critically acclaimed films??
+CHITCHAT,Say something funny
+MOVIE_QUERY,Tell me which movies have perfect scores?
+GOODBYE,"Sayonara, thanks for your help"
+GREETING,Oh namaste
+GOODBYE,"Thanks, until next time"
+MOVIE_QUERY,Show me action movies
+GREETING,"Hello AI, can you help me?"
+GOODBYE,"Cheers, that was helpful"
+OTHER,How does a computer work?
+GREETING,Wassup!
+GOODBYE,Adios!
+REJECT,"Absolutely not, that's not right"
+MOVIE_QUERY,Recommend recent films
+MOVIE_QUERY,What are good mystery films?
+GOODBYE,Au revoir!!
+REJECT,Not interested
+GOODBYE,"Goodbye, that was helpful"
+MOVIE_QUERY,I want to know what's a good family movie?
+GREETING,Good to see you!!
+MOVIE_QUERY,Can you suggest a good film?
+CHITCHAT,I'm happy?
+GREETING,"Hiya, can you help me?"
+GOODBYE,"Bye bye, that was helpful"
+GREETING,"Sup, I need help"
+MOVIE_QUERY,Can you what are good mystery films??
+GOODBYE,"Alright, adios"
+GOODBYE,Ok take care
+MOVIE_QUERY,What genre is Fight Club??
+GREETING,Oh how do you do
+MOVIE_QUERY,Tell me suggest some old movies
+GREETING,Hi bot!
+MOVIE_QUERY,Can you tell me about the dark knight?
+GREETING,Morning
+GREETING,"Konnichiwa, how are you?"
+GOODBYE,"Thanks, bye"
+CHITCHAT,Quick question: what's the weather like?
+MOVIE_QUERY,Please i need a movie for tonight
+GREETING,Bonjour there

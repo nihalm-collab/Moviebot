@@ -17,7 +17,7 @@ st.title("Moviebot")
 loader = CSVLoader("IMDB_Top_1000_Movies_Dataset.csv")
 data = loader.load()
 
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=0)
 docs = text_splitter.split_documents(data)
 
 embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004", task_batch_size=100)

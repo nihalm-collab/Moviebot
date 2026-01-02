@@ -23,7 +23,7 @@ loader = CSVLoader("IMDB_Top_1000_Movies_Dataset.csv",csv_args={
     source_column="Movie_Name")
 data = loader.load()
 
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=0)
 docs = text_splitter.split_documents(data)
 
 structured_docs = []
@@ -67,7 +67,7 @@ if query:
     with st.expander("🔍 Retrieved Context (Debug)"):
         for i, doc in enumerate(retrieved_docs):
                 st.write(f"**Document {i+1}:**")
-                st.write(doc.page_content[:500])  # İlk 500 karakter
+                st.write(doc.page_content[:500]) 
                 st.write("---")
     
     question_answering_chain = create_stuff_documents_chain(llm, prompt)

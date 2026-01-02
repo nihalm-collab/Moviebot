@@ -21,7 +21,7 @@ st.title("🎬 AI Destekli Film Asistanı")
 @st.cache_resource
 def load_intent_model():
     """Eğitilmiş intent sınıflandırma modelini yükler."""
-    model_path = 'models/intent_model.pkl'
+    model_path = 'intent_model.pkl'
     if os.path.exists(model_path):
         return joblib.load(model_path)
     return None
@@ -51,7 +51,7 @@ retriever = initialize_vectorstore()
 # --- 3. SABİT GEMINI MODELİ TANIMI ---
 # Model seçimi kaldırıldı, doğrudan Gemini tanımlanıyor.
 llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-flash", # 2.5 henüz genel kullanıma açık değil, 1.5 en kararlı sürüm
+    model="gemini-2.0-flash", # 2.5 henüz genel kullanıma açık değil, 1.5 en kararlı sürüm
     temperature=0.3,
     max_tokens=500
 )

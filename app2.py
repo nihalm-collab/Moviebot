@@ -1,6 +1,5 @@
 import streamlit as st
 from langchain_community.document_loaders.csv_loader import CSVLoader
-from langchain.schema import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv

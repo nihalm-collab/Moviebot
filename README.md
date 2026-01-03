@@ -19,9 +19,8 @@ Proje dosyaları aşağıdaki dizin yapısına göre organize edilmiştir:
 
 ```text
 gemini-basic-example/
-├── app/
-│   ├── app.py                            # Ana Streamlit uygulama dosyası
-│   └── Moviebot.ipynb                    # Geliştirme ve test not defteri
+├── app/                          
+│   └── app.py                     # Ana Streamlit uygulama dosyası
 ├── data/
 │   ├── IMDb_Top_1000_Movies_Dataset.csv  # Film veri seti (Kaynak)
 │   └── intent_classification_data.csv    # Niyet sınıflandırma eğitim verisi

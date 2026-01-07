@@ -39,8 +39,8 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
 1. Repoyu Klonlayın
 ```bash
 
-git clone https://github.com/kullaniciadi/moviebot-rag.git
-cd GEMINI-STREAMLIT-MOVIEBOT
+git clone https://github.com/nihalm-collab/gemini-basic-example.git
+cd gemini-basic-example
 
 ```
 2. Conda Ortamını Oluşturun

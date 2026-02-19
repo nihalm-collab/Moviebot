@@ -39,7 +39,7 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
 1. Repoyu Klonlayın
 ```bash
 
-git clone https://github.com/nihalm-collab/gemini-basic-example.git
+git clone https://github.com/nihalm-collab/Moviebot.git
 cd gemini-basic-example
 
 ```

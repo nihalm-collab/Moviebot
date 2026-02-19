@@ -52,7 +52,7 @@ Miniconda veya Anaconda kurulu ise, proje için yeni bir sanal ortam oluşturun:
 conda create --name rag_env python=3.10
 
 # Ortamı aktif et
-conda activate moviebot-rag
+conda activate rag_env
 
 ```
 

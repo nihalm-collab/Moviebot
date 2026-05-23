@@ -47,7 +47,7 @@ def initialize_vectorstore():
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=200)
     docs = text_splitter.split_documents(data)
 
-    embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004", task_batch_size=100)
+    embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001", task_batch_size=100)
     vector_store = Chroma.from_documents(documents=docs, embedding=embeddings)
     
     return vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 5})

@@ -1,9 +1,9 @@
-
 # --- 0. GEREKLİ KÜTÜPHANELERİN İÇE AKTARIMI ---
 import streamlit as st
 from langchain_community.document_loaders.csv_loader import CSVLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
@@ -31,11 +31,29 @@ def load_intent_model():
 
 # --- 2. VERİ SETİNİ YÜKLEME + VERİYİ PARÇALAMA + VEKTÖR DEPOSU OLUŞTURMA ---
 
+PERSIST_DIR = "chroma_db"
+# Çok dilli yerel model: Türkçe sorular İngilizce film açıklamalarıyla eşleşebilir.
+# İlk çalıştırmada (~470 MB) bir kez indirilir, Gemini kotası harcamaz.
+EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+
+
+@st.cache_resource
+def get_embeddings():
+    return HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
+
+
 @st.cache_resource
 def initialize_vectorstore():
-    """Uploads and initializes the vector store from the CSV dataset."""
-    
-    file_path = "data/IMDB_Top_1000_Movies_Dataset.csv"
+    """Vektör deposunu diskten yükler; yoksa CSV'den bir kez oluşturup kaydeder."""
+
+    embeddings = get_embeddings()
+
+    # Daha önce oluşturulduysa diskteki veritabanını kullan
+    if os.path.isdir(PERSIST_DIR) and os.listdir(PERSIST_DIR):
+        vector_store = Chroma(persist_directory=PERSIST_DIR, embedding_function=embeddings)
+        return vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 5})
+
+    file_path = "data/IMDb_Top_1000_Movies_Dataset.csv"
 
     if not os.path.exists(file_path):
         st.error("Dataset file not found.")
@@ -47,9 +65,11 @@ def initialize_vectorstore():
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=200)
     docs = text_splitter.split_documents(data)
 
-    embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001", task_batch_size=100)
-    vector_store = Chroma.from_documents(documents=docs, embedding=embeddings)
-    
+    with st.spinner("Film veritabanı ilk kez hazırlanıyor (bir kerelik, birkaç dakika sürebilir)..."):
+        vector_store = Chroma.from_documents(
+            documents=docs, embedding=embeddings, persist_directory=PERSIST_DIR
+        )
+
     return vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 5})
 
 # Kaynakları yükle

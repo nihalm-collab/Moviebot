@@ -11,3 +11,5 @@ pypdf
 rapidocr-onnxruntime
 langchain-classic==1.0.0
 langchain_core
+scikit-learn 
+pandas

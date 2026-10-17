@@ -1,16 +1,18 @@
 # 🎬 MovieBot RAG
 
-**MovieBot**, film severler için geliştirilmiş, kaggle'dan https://www.kaggle.com/datasets/hrishabhtiwari/imdb-top-1000-movies-dataset bağlantısı üzerinden indirilen **IMDB_Top_1000_Movies.csv** veri setini ve **Google Gemini** yapay zekasını kullanan hibrit bir sohbet asistanıdır.
+**MovieBot**, film severler için geliştirilmiş, kaggle'dan https://www.kaggle.com/datasets/hrishabhtiwari/imdb-top-1000-movies-dataset bağlantısı üzerinden indirilen **IMDb_Top_1000_Movies_Dataset.csv** veri setini ve **Google Gemini** yapay zekasını kullanan hibrit bir sohbet asistanıdır.
 
-Bu proje, maliyet ve performansı optimize etmek için **Intent Sınıflandırma** (Niyet Analizi) ile **RAG (Retrieval-Augmented Generation)** mimarisini bir arada kullanır. Basit sohbetler yerel bir modelle, karmaşık film sorguları ise Gemini AI ile yanıtlanır.
+Bu proje, maliyet ve performansı optimize etmek için **Intent Sınıflandırma** (Niyet Analizi) ile **RAG (Retrieval-Augmented Generation)** mimarisini bir arada kullanır. Basit sohbetler yerel bir modelle, film soruları ise Gemini AI ile yanıtlanır. Film aramak için gereken vektörler de yerel bir modelle hesaplanır; böylece Gemini kotası yalnızca cevap üretirken harcanır.
 
 ## 🚀 Özellikler
 
 * **🧠 Hibrit Yapı:**
     * **Niyet Analizi:** Kullanıcının amacını (Selamlaşma, Film Sorusu vb.) yerel bir modelle tespit eder.
-    * **RAG Motoru:** Film soruları için vektör veritabanından bağlam çeker.
+    * **RAG Motoru:** Film soruları için veri setinden bağlam çeker.
+* **🎯 Filtreli Arama:** Soruda oyuncu adı, tür (İngilizce/Türkçe) veya yıl/on yıl geçiyorsa önce tabloda kesin filtre uygular (ör. *"comedy movie with Tom Hanks"*, *"90'lardan korku filmi"*). Tam eşleşme yoksa filtreleri sırayla gevşetir.
+* **🌍 Çok Dilli:** Türkçe veya İngilizce sorabilirsiniz; bot sorunun dilinde cevap verir.
 * **📂 Modüler Yapı:** Veriler, model eğitimi ve uygulama mantığı ayrı klasörlerde organize edilmiştir.
-* **🔍 Vektör Arama:** `ChromaDB` kullanarak filmler arasında anlamsal arama yapar.
+* **🔍 Vektör Arama:** Filtre uygulanamayan sorularda (*"Inception'a benzer bir film"*) `ChromaDB` ile anlamsal arama yapar. Vektörler yerel `paraphrase-multilingual-MiniLM-L12-v2` modeliyle hesaplanır ve `chroma_db_v2/` klasörüne kaydedilir; yalnızca ilk açılışta oluşturulur.
 * **🤖 Google Gemini:** Doğal dil işleme ve cevap üretimi için `gemini-2.5-flash-lite` modelini kullanır.
 
 ## 📂 Proje Yapısı
@@ -18,16 +20,17 @@ Bu proje, maliyet ve performansı optimize etmek için **Intent Sınıflandırma
 Proje dosyaları aşağıdaki dizin yapısına göre organize edilmiştir:
 
 ```text
-gemini-basic-example/
+Moviebot/
 ├── app/                          
 │   └── app.py                     # Ana Streamlit uygulama dosyası
 ├── data/
 │   ├── IMDb_Top_1000_Movies_Dataset.csv  # Film veri seti (Kaynak)
-│   └── intent_classification_data.csv    # Niyet sınıflandırma eğitim verisi
+│   └── intent_classification_dataset.csv # Niyet sınıflandırma eğitim verisi
 ├── intent_classification_model/
 │   ├── intent_model.pkl                  # Eğitilmiş niyet sınıflandırma modeli
 │   └── train_classifier.py               # Modeli yeniden eğitmek için script
-├── .env                                  # API key
+├── chroma_db_v2/                         # Vektör veritabanı (ilk açılışta otomatik oluşur, git'e eklenmez)
+├── .env                                  # API key (git'e eklenmez)
 ├── .gitignore                            # Git göz ardı dosyası
 ├── README.md                             # Proje dokümantasyonu
 └── requirements.txt                      # Gerekli kütüphaneler
@@ -65,13 +68,15 @@ pip install -r requirements.txt
 
 ```
 4. Çevresel Değişkenleri Ayarlayın
-Proje ana dizininde .env adında bir dosya oluşturun ve Google Gemini API anahtarınızı ekleyin:
+Proje ana dizininde .env adında bir dosya oluşturun ve [Google AI Studio](https://aistudio.google.com/apikey)'dan aldığınız Gemini API anahtarınızı ekleyin:
 
 ``` bash
 
 GOOGLE_API_KEY=senin_google_api_anahtarin_buraya
 
 ```
+
+> ⚠️ `.env` dosyası `.gitignore` içindedir; API anahtarınızı asla GitHub'a yüklemeyin. Yüklenen anahtarlar Google tarafından tespit edilip iptal edilir.
 
 ## ▶️ Uygulamayı Çalıştırma
 Proje kök dizinindeyken, uygulamayı app klasörü içinden başlatmak için şu komutu kullanın:
@@ -83,10 +88,12 @@ streamlit run app/app.py
 
 Tarayıcınızda http://localhost:8501 adresi otomatik olarak açılacaktır.
 
-🧠 Model Eğitimi (Opsiyonel)
+**İlk açılış:** Embedding modeli (~470 MB) bir kez indirilir ve 1000 filmin vektörleri hesaplanıp `chroma_db_v2/` klasörüne kaydedilir. Bu birkaç dakika sürebilir; sonraki açılışlar hızlıdır. Veri setini değiştirirseniz bu klasörü silin, bir sonraki açılışta yeniden oluşturulur.
+
+## 🧠 Model Eğitimi (Opsiyonel)
 Eğer niyet sınıflandırma modelini güncellemek veya yeni verilerle tekrar eğitmek isterseniz:
 
-- data/intent_classification_data.csv dosyasını güncelleyin.
+- data/intent_classification_dataset.csv dosyasını güncelleyin.
 
 - Ana dizinde şu komutu çalıştırın:
 
@@ -104,7 +111,11 @@ python intent_classification_model/train_classifier.py
 
 - LangChain (RAG Orkestrasyonu)
 
-- Google Gemini API (LLM & Embeddings)
+- Google Gemini API (cevap üretimi)
+
+- Sentence-Transformers / HuggingFace (yerel embedding)
+
+- Pandas (filtreli arama)
 
 - ChromaDB (Vektör Veritabanı)
 
@@ -115,5 +126,3 @@ python intent_classification_model/train_classifier.py
 ## Çalışma Videosu
 
 https://github.com/user-attachments/assets/6eff5bd4-ec26-4d9e-96f0-c1c9ba09ec3b
-
-
